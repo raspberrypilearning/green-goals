@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Learn about 5 important UN Sustainable Development Goals for the environment by coding the UN pandas.
 
 ### What you will make
 
@@ -41,9 +41,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ How to get sprites to respond to a change in backdrop
++ Learn about the Green Goals by creating a project about them
++ Make sprites move in different ways (or something about costumes..)
 
 --- /collapse ---
 
