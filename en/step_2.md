@@ -18,13 +18,21 @@ In this project, there is one main UN Panda that walks through the goals and int
 
 [[picture/screenshot? pandas and backdrops]]
 
-In this step, you will be programming the main UN Panda to walk through each of the 5 backdrops representing the Green Goals, triggering the next backdrop.
+In this step, you will be programming the main UN Panda to walk through each of the 5 backdrops representing the Green Goals.
 
-You will then program the Green Goal Sprites to hide and only show when their backdrop appears.
+You will then program the Green Goal sprites to hide and only show up when their backdrop appears.
+
+--- no-print ---
+Watch this short video, which shows what to do next.
+
+![screenshot](images/balls-step2.gif)
+
+Now follow each task given below.
+--- /no-print ---
 
 --- task ---
 
-
+Program the main Panda to start from the bottom left corner and move accross the Stage
 
 --- /task ---
 
