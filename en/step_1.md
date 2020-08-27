@@ -43,7 +43,7 @@ title: What you will learn
 
 + How to get sprites to respond to a change in backdrop
 + Learn about the Green Goals by creating a project about them
-+ Make sprites move in different ways (or something about costumes..)
++ Make sprites move in a variety of different ways to show an action
 
 --- /collapse ---
 
