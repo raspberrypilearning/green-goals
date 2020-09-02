@@ -41,9 +41,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to get sprites to respond to a change in backdrop
-+ Learn about the Green Goals by creating a project about them
-+ Make sprites move in a variety of different ways to show an action
++ How to get sprites to respond to a change in backdrop (how to use broadcast to control a sequence of an animation?)
++ Use motion and sound to show an action
++ Learn about the United Nations Development goals by creating a project about them
 
 --- /collapse ---
 
