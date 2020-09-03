@@ -1,6 +1,7 @@
 ## Introduction
 
-Learn about 5 important UN Sustainable Development Goals for the environment by coding the UN pandas.
+Learn about five of the United Nations’ Sustainable Development Goals which focus on the environment, by coding the United Nations’ pandas.
+
 
 ### What you will make
 
