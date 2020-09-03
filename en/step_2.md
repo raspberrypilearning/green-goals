@@ -49,7 +49,7 @@ Add a `go to x:() y:()`{:class="block3motion"} block from the `Motion`{:class="b
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when I recieve [next v]
+when i recieve [next v]
 + go to x: (-168) y: (-87)
 ```
 
