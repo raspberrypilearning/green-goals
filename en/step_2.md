@@ -82,7 +82,7 @@ go to x: (-168) y: (-87)
 show
 + repeat { until <touching[edge v]>
   move (10) steps
-}
+end
 hide
 ```
 
