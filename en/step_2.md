@@ -40,11 +40,11 @@ Arrange the blocks so that you have two scripts, one for animating the backdrops
 
 --- /task ---
 
-Program the main Panda to start from the bottom left corner
+Get the **Main Panda** sprite to start from the bottom left corner.
 
 --- task ---
 
-Get the **Main Panda** sprite to start from the bottom left corner and move across the stage
+Select the `gotoxy`{:class="block3motion"} block from the `Motion`{:class="block3motion"} menu
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -54,12 +54,11 @@ show
 + go to x: (-168) y: (-87)
 ```
 
-
 --- /task ---
 
 --- task ---
 
-and move accross the Stage, using broadcasts.
+and move across the stage
 
 --- /task ---
 

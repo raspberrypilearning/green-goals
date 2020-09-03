@@ -42,7 +42,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Use broadcast and `Looks`{:class="block3looks"} to control an animation  sequence
++ Use broadcast and `Looks`{:class="block3looks"} to control an animation sequence
 + Use a combination of `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Operators`{:class="block3operators"} to create sprite action; and use `Sound`{:class="block3sound"} to accompany the action
 + Learn about the United Nations Development goals by creating an animation about them
 
