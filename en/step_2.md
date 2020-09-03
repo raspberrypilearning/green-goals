@@ -34,26 +34,25 @@ In the `Events`{:class="block3events"} blocks menu, select the `broadcast`{:clas
 
 --- task ---
 
-Arrange the blocks so that you have two scripts, one for animating the backdrops, and the other for the **Main Panda** sprite
+Arrange the blocks so that you have two scripts, one for animating the backdrops, and the other for the **Main Panda** sprite.
+
+![screenshot of the two scripts side by side](images/broadcast-scripts.png)
 
 --- /task ---
 
+Program the main Panda to start from the bottom left corner
 
 --- task ---
 
-Program the main Panda to start from the bottom left corner
+Get the **Main Panda** sprite to start from the bottom left corner and move across the stage
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
 when flag clicked
-+ go to x: (150) y: (0)
-switch costume to [gift-a v]
-wait (1) seconds
-switch costume to [Crystal-a v]
-wait (2) seconds
-switch costume to [gift-a v]
-
+show
++ go to x: (-168) y: (-87)
+```
 
 
 --- /task ---
