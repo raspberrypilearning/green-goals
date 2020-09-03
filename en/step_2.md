@@ -44,7 +44,7 @@ Get the **Main Panda** sprite to start from the bottom left corner.
 
 --- task ---
 
-Select the `go to x:() y: ()`{:class="block3motion"} block from the `Motion`{:class="block3motion"} menu
+Add a `go to x:() y:()`{:class="block3motion"} block from the `Motion`{:class="block3motion"} menu and change the coordinates to x: `-168` and y: `-87`.
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -55,9 +55,11 @@ when flag clicked
 
 --- /task ---
 
+Get the **Main Panda** sprite to move across the stage.
+
 --- task ---
 
-and move across the stage
+Show the panda by going to the `Looks`{:class="block3looks"} menu and adding the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks
 
 --- /task ---
 
