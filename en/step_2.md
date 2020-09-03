@@ -50,7 +50,6 @@ Select the `gotoxy`{:class="block3motion"} block from the `Motion`{:class="block
 
 ```blocks3
 when flag clicked
-show
 + go to x: (-168) y: (-87)
 ```
 
