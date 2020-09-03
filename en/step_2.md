@@ -32,11 +32,11 @@ Now follow each task given below.
 
 As you may remember if you've done the Focus on the Prize project, **Broadcasts** are messages that are sent by a sprite for some or all other sprites to receive.
 
-In the `Events`{:class="block3events"} blocks menu, select the `broadcast`{:class="block3events"} and `broadcast next`{:class="block3events"} blocks and a 
+In the `Events`{:class="block3events"} blocks menu, select the `broadcast`{:class="block3events"}, `broadcast next`{:class="block3events"}, and `when flag clicked`{:class="block3events"} blocks
 
 --- task ---
 
-
+Arrange the blocks so that you have two scripts, one for animating the backdrops, and the other for the **Main Panda** sprite
 
 --- /task ---
 
