@@ -74,7 +74,7 @@ Get the **Main Panda** sprite to move across the stage until it touches the edge
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} loop with a `Sensing`{:class="block3sensing"} condition that repeats until the sprite is `touching(edge)`{:class="block3sensing"}.
+Add a `repeat`{:class="block3control"} loop with a `Sensing`{:class="block3sensing"} condition that repeats `move (10) steps`{:class="block3motion"} until the sprite is `touching(edge)`{:class="block3sensing"}.
 
 ```blocks3
 when flag clicked
