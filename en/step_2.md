@@ -14,13 +14,11 @@ The Scratch environment that you will open looks like this:
 
 --- /task ---
 
-In this project, there is one main UN Panda that walks through the goals and introduces the other pandas. Each UN Sustainable Development Goal (Green Goals) has its own Panda sprite and its own backdrop.
+In this project, there is one **Main Panda** sprite that walks through the UN Sustainable Development Goals (Green Goals) and introduces the other pandas. Each Green Goal has its own Panda sprite and its own backdrop.
 
 [[picture/screenshot? pandas and backdrops]]
 
-In this step, you will be programming the main UN Panda to walk through each of the 5 backdrops representing the Green Goals.
-
-You will then program the Green Goal sprites to hide and only show up when their backdrop appears.
+You will be programming the **Main Panda** sprite to walk through each of the 5 backdrops representing the Green Goals.
 
 --- no-print ---
 Watch this short video, which shows what to do next.
@@ -32,7 +30,7 @@ Now follow each task given below.
 
 As you may remember if you've done the Focus on the Prize project, **Broadcasts** are messages that are sent by a sprite for some or all other sprites to receive.
 
-In the `Events`{:class="block3events"} blocks menu, select the `broadcast`{:class="block3events"}, `broadcast next`{:class="block3events"}, and `when flag clicked`{:class="block3events"} blocks
+In the `Events`{:class="block3events"} blocks menu, select the `broadcast`{:class="block3events"}, `broadcast next`{:class="block3events"}, and `whenflagclicked`{:class="block3events"} blocks
 
 --- task ---
 
