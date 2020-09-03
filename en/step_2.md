@@ -80,6 +80,8 @@ Add a `repeat`{:class="block3control"} `move(10)steps`{:class="block3motion"} lo
 when flag clicked
 go to x: (-168) y: (-87)
 show
++ repeat (until touching(edge))
++ move (10) steps
 hide
 ```
 
