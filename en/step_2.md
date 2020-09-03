@@ -55,17 +55,33 @@ when flag clicked
 
 --- /task ---
 
-Get the **Main Panda** sprite to move across the stage.
+Show the **Main Panda** sprite at the beginning of each Green Goal, and hide it at the end.
 
 --- task ---
 
-Show the panda by going to the `Looks`{:class="block3looks"} menu and adding the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks
+Go to the `Looks`{:class="block3looks"} menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks
+
+```blocks3
+when flag clicked
+go to x: (-168) y: (-87)
++show
++hide
+```
 
 --- /task ---
 
+Get the **Main Panda** sprite to move across the stage until it touches the edge of the stage.
+
 --- task ---
 
-..
+Add a `repeat`{:class="block3control"} `move(10)steps`{:class="block3motion"} loop with a `Sensing`{:class="block3sensing"} condition that repeats until the sprite is `touching(edge)`{:class="block3sensing"}.
+
+```blocks3
+when flag clicked
+go to x: (-168) y: (-87)
+show
+hide
+```
 
 --- /task ---
 
