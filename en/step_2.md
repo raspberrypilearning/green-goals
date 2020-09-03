@@ -4,9 +4,9 @@ Get the UN panda to walk through the different Green Goals, making the Green Goa
 
 --- task ---
 
-**Online:**, open the [starter project](http://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
+**Online:** open the [starter project](http://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
 
-**Offline:**, open the project [starter file](http://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** open the project [starter file](http://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
 The Scratch environment that you will open looks like this:
 
@@ -14,7 +14,7 @@ The Scratch environment that you will open looks like this:
 
 --- /task ---
 
-In this project, there is one main UN Panda that walks through the goals and introduces the other pandas. Each Green Goal has its own Panda sprite and its own backdrop.
+In this project, there is one main UN Panda that walks through the goals and introduces the other pandas. Each UN Sustainable Development Goal (Green Goals) has its own Panda sprite and its own backdrop.
 
 [[picture/screenshot? pandas and backdrops]]
 
@@ -32,13 +32,26 @@ Now follow each task given below.
 
 --- task ---
 
-Program the main Panda to start from the bottom left corner and move accross the Stage
+Program the main Panda to start from the bottom left corner
+
+![image of the main Panda sprite](images/mainpanda-sprite.png)
+
+```blocks3
+when flag clicked
++ go to x: (150) y: (0)
+switch costume to [gift-a v]
+wait (1) seconds
+switch costume to [Crystal-a v]
+wait (2) seconds
+switch costume to [gift-a v]
+
+
 
 --- /task ---
 
 --- task ---
 
-..
+and move accross the Stage, using broadcasts.
 
 --- /task ---
 
