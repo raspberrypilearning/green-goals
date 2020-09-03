@@ -25,10 +25,21 @@ You will then program the Green Goal sprites to hide and only show up when their
 --- no-print ---
 Watch this short video, which shows what to do next.
 
-![screenshot](images/balls-step2.gif)
+![screenshot](images/NOTNAMEDYET.gif)
 
 Now follow each task given below.
 --- /no-print ---
+
+As you may remember if you've done the Focus on the Prize project, **Broadcasts** are messages that are sent by a sprite for some or all other sprites to receive.
+
+In the `Events`{:class="block3events"} blocks menu, select the `broadcast`{:class="block3events"} and `broadcast next`{:class="block3events"} blocks and a 
+
+--- task ---
+
+
+
+--- /task ---
+
 
 --- task ---
 
