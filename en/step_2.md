@@ -44,7 +44,7 @@ Get the **Main Panda** sprite to start from the bottom left corner.
 
 --- task ---
 
-Select the `gotoxy`{:class="block3motion"} block from the `Motion`{:class="block3motion"} menu
+Select the `go to x:() y: ()`{:class="block3motion"} block from the `Motion`{:class="block3motion"} menu
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
