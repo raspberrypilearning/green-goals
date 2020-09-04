@@ -34,7 +34,7 @@ In the `Events`{:class="block3events"} blocks menu, select the `broadcast`{:clas
 
 --- task ---
 
-Arrange the blocks so that you have two scripts, one for animating the backdrops, and the other for the **Main Panda** sprite.
+Arrange the blocks so that you have two scripts, one for setting up the animation sequence for the backdrops, and the other for the **Main Panda** sprite, which continues the animation through the Green Goals.
 
 ![screenshot of the two scripts side by side](images/broadcast-scripts.png)
 
@@ -61,6 +61,8 @@ Show the **Main Panda** sprite at the beginning of each Green Goal, and hide it 
 
 Go to the `Looks`{:class="block3looks"} menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks
 
+![image of the main Panda sprite](images/mainpanda-sprite.png)
+
 ```blocks3
 when flag clicked
 go to x: (-168) y: (-87)
@@ -76,6 +78,8 @@ Get the **Main Panda** sprite to move across the stage until it touches the edge
 
 Add a `repeat`{:class="block3control"} loop with a `Sensing`{:class="block3sensing"} condition that repeats `move (10) steps`{:class="block3motion"} until the sprite is `touching(edge)`{:class="block3sensing"}.
 
+![image of the main Panda sprite](images/mainpanda-sprite.png)
+
 ```blocks3
 when flag clicked
 go to x: (-168) y: (-87)
@@ -88,7 +92,19 @@ hide
 
 --- /task ---
 
+When the Main Panda reaches the edge of the stage, program the next backdrop to appear
 
+--- task ---
+
+..
+
+--- /task ---
+
+Uh oh, the Main Panda disappears when it gets to the [[NEXT?]] backdrop!
+
+[[GIF HERE?]]
+
+Make sure the Main Panda is at the front of all the backdrop layers.
 
 --- task ---
 
@@ -96,11 +112,7 @@ hide
 
 --- /task ---
 
---- task ---
-
-..
-
---- /task ---
+Add the finishing touches. Get the Main Panda to introduce the panda for each Green Goal, and add some waiting time to let the Green Goal pandas explain their goals.
 
 --- task ---
 
