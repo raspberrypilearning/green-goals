@@ -92,7 +92,7 @@ hide
 
 --- /task ---
 
-When the Main Panda reaches the edge of the stage, program the next backdrop to appear
+When the **Main Panda** reaches the edge of the stage, program the next backdrop to appear
 
 --- task ---
 

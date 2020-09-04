@@ -1,6 +1,6 @@
 ## Climate action
 
-Add an introductory sentence. What will learners achieve by the end of this step?
+Get the **Climate Action Panda** to move to the music and show an action that
 
 You will then program the Green Goal sprites to hide and only show up when their backdrop appears.
 
