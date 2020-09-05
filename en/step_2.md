@@ -141,7 +141,20 @@ Add the finishing touches. Get the Main Panda to introduce the panda for each Gr
 
 --- task ---
 
-..
+```blocks3
+when flag clicked
+go to x: (-168) y: (-87)
+show
+go to [front v] layer
++ say backdrop [name v] for (4) seconds
++ wait (12) seconds
+repeat until <touching[edge v]>
+  move (10) steps
+end
+hide
+broadcast [next v]
+next backdrop
+```
 
 --- /task ---
 
