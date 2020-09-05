@@ -96,7 +96,19 @@ When the **Main Panda** reaches the edge of the stage, program the next backdrop
 
 --- task ---
 
-..
+![image of the main Panda sprite](images/mainpanda-sprite.png)
+
+```blocks3
+when flag clicked
+go to x: (-168) y: (-87)
+show
+repeat until <touching[edge v]>
+  move (10) steps
+end
+hide
++ broadcast [next v]
++ next backdrop
+```
 
 --- /task ---
 
