@@ -57,11 +57,11 @@ show
 
 --- task ---
 
---- task ---
+--- /task ---
 
 You will then program the Green Goal sprites to hide and only show up when their backdrop appears.
 
---- /task ---
+--- task ---
 
 --- /task ---
 
