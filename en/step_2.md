@@ -141,6 +141,8 @@ Add the finishing touches. Get the Main Panda to introduce the panda for each Gr
 
 --- task ---
 
+![image of the main Panda sprite](images/mainpanda-sprite.png)
+
 ```blocks3
 when flag clicked
 go to x: (-168) y: (-87)
