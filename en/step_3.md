@@ -2,7 +2,7 @@
 
 Get the **Climate Action Panda** to respond to the Main Panda's `broadcasts`{:class="block3events"}, creating an action that will help explain the Climate Action Green Goal.
 
-Here is the code you have already. There is some music and some text explaining the panda's goal as well as a script that gets the panda to `hide`{:class="block3looks"} `when the flag is clicked`{:class="blocks3events"}.
+Here is the code you have already. There is some music and some text explaining the panda's goal as well as a script that gets the panda to `hide`{:class="block3looks"} `when the flag clicked`{:class="blocks3events"}.
 
 ![climate action starter code](images/climateaction_startercode.png)
 
