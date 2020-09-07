@@ -12,6 +12,8 @@ Get the **Climate Action Panda** to respond to the **Main Panda's** `broadcast`{
 
 Start a new script with the `when backdrop switches to Climate Action`{:class="block3events"} and use a `show`{:class="block3looks"} block to show the **Climate Action Panda** on the stage.
 
+![image of the Climate Action Panda sprite](images/climateactionpanda-sprite.png)
+
 ```blocks3
 when backdrop switches to [Climate Action v]
 show
@@ -22,6 +24,8 @@ show
 --- task ---
 
 Set the size of the **Climate Action Panda**.
+
+![image of the Climate Action Panda sprite](images/climateactionpanda-sprite.png)
 
 ```blocks3
 when backdrop switches to (Climate Action v)
@@ -37,6 +41,8 @@ In the starter code, you can see a `wait 5 seconds`{:class="block3control"} and 
 
 Get the **Climate Action Panda** to wait 5 seconds before moving as well.
 
+![image of the Climate Action Panda sprite](images/climateactionpanda-sprite.png)
+
 ```blocks3
 when backdrop switches to (Climate Action v)
 set size to (50) %
@@ -47,13 +53,27 @@ show
 
 --- task ---
 
+Add blocks so that after waiting for 5 seconds, the **Climate Action Panda** starts to get bigger.
 
+![image of the Climate Action Panda sprite](images/climateactionpanda-sprite.png)
+
+```blocks3
+when backdrop switches to (Climate Action v)
+set size to (50) %
+show
+wait (5) seconds
++ repeat (18)
+  change size by 5
+end
+```
 
 --- /task ---
 
 --- task ---
 
 
+
+![image of the Climate Action Panda sprite](images/climateactionpanda-sprite.png)
 
 --- /task ---
 
