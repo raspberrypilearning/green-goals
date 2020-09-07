@@ -81,7 +81,7 @@ Start a new script with the `when I recieve next`{:class="block3events"} and `hi
 ![image of the Climate Action Panda sprite](images/climateactionpanda-sprite.png)
 
 ```blocks3
-when I recieve [next v]
+when I receive [next v]
 hide
 ```
 
