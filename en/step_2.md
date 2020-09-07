@@ -44,7 +44,7 @@ Arrange the blocks so that you have two scripts, one for setting up the animatio
 
 --- /task ---
 
-Get the **Main Panda** sprite to start from the bottom left corner.
+Get the **Main Panda** sprite to enter from the bottom left-hand corner.
 
 --- task ---
 
