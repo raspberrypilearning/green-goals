@@ -13,15 +13,15 @@ Get the **Climate Action Panda** to respond to the **Main Panda's** `broadcast`{
 Start a new script with the `when backdrop switches to (Climate Action)`{:class="blocks3events"} and use a `show`{:class="blocks3looks"} block to show the **Climate Action Panda** on the stage.
 
 ```blocks3
-when backdrop switches to (Climate Action v)
+when backdrop switches to [Climate Action v]
 show
 ```
 
 --- /task ---
 
-Set the size of the **Climate Action Panda**.
-
 --- task ---
+
+Set the size of the **Climate Action Panda**.
 
 ```blocks3
 when backdrop switches to (Climate Action v)

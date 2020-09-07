@@ -1,6 +1,6 @@
 ## Introduction
 
-Learn about the United Nations’ Sustainable Development Goals which focus on the environment, by coding the United Nations’ pandas. The five environment-focused goals are: 
+Learn about the United Nations’ Sustainable Development Goals which focus on the environment, by coding the United Nations’ pandas. The five environment-focused goals are:
 + [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html)
 + [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html)
 + [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html)
