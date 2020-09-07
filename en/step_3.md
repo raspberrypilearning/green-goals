@@ -53,7 +53,7 @@ show
 
 --- task ---
 
-Add blocks so that after waiting for 5 seconds, the **Climate Action Panda** starts to get bigger.
+Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate Action Panda** gets bigger and smaller.
 
 ![image of the Climate Action Panda sprite](images/climateactionpanda-sprite.png)
 
@@ -63,33 +63,27 @@ set size to (50) %
 show
 wait (5) seconds
 + repeat (18)
-  change size by 5
+  change size by (5)
+  wait (0.2) seconds
+  change size by (-5)
+  wait (0.2) seconds
 end
 ```
 
 --- /task ---
 
+Get the **Climate Action Panda** to respond to the next `broadcast`{:class="block3events"} and hide when it is finished explaining its goal.
+
 --- task ---
 
-
+Start a new script with the `when I recieve next`{:class="block3events"} and `hide`{:class="block3looks"} blocks.
 
 ![image of the Climate Action Panda sprite](images/climateactionpanda-sprite.png)
 
---- /task ---
-
---- task ---
-
-
-
---- /task ---
-
---- task ---
-
---- /task ---
-
-You will then program the five Green Goal sprites to hide and only show up when their backdrop appears.
-
---- task ---
+```blocks3
+when i recieve [next v]
+hide
+```
 
 --- /task ---
 
