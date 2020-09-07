@@ -1,16 +1,16 @@
 ## Climate action
 
-Get the **Climate Action Panda** to respond to the Main Panda's `broadcasts`{:class="block3events"}, creating an action that will help explain the Climate Action Green Goal.
+Get the **Climate Action Panda** to respond to the **Main Panda's** `broadcasts`{:class="block3events"}, creating an action that will help explain the [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html) sustainable development goal.
 
-Here is the code you have already. There is some music and some text explaining the panda's goal as well as a script that gets the panda to `hide`{:class="block3looks"} `when the flag clicked`{:class="blocks3events"}.
+Here is the code you have already. There is some music and some text explaining the **Climate Action Panda** goal as well as a script that gets the **Climate Action Panda** to `hide`{:class="block3looks"} `when the flag clicked`{:class="blocks3events"}.
 
 ![climate action starter code](images/climateaction_startercode.png)
 
-Get the Climate Action Panda to respond to the Main Panda's `broadcast`{:class="block3events"} from Step 2.
+Get the **Climate Action Panda** to respond to the **Main Panda's** `broadcast`{:class="block3events"} which you set-up in the previous step (Step 2).
 
 --- task ---
 
-Start a new script with the `when backdrop switches to Climate Action`{:class="blocks3events"} and use a `show`{:class="blocks3looks"} block to show the Climate Action Panda on the stage.
+Start a new script with the `when backdrop switches to (Climate Action)`{:class="blocks3events"} and use a `show`{:class="blocks3looks"} block to show the **Climate Action Panda** on the stage.
 
 ```blocks3
 when backdrop switches to (Climate Action v)
@@ -19,7 +19,7 @@ show
 
 --- /task ---
 
-Set the size of the Climate Action Panda.
+Set the size of the **Climate Action Panda**.
 
 --- task ---
 
@@ -59,7 +59,7 @@ show
 
 --- /task ---
 
-You will then program the Green Goal sprites to hide and only show up when their backdrop appears.
+You will then program the five Green Goal sprites to hide and only show up when their backdrop appears.
 
 --- task ---
 
