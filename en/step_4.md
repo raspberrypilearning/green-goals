@@ -21,7 +21,7 @@ show
 
 --- task ---
 
-Get the **Energy Panda** to point in the other direction so it is interacting with the **Main Panda**
+Get the **Energy Panda** sprite to point in the other direction so it is interacting with the **Main Panda** sprite
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -35,7 +35,7 @@ show
 
 --- task ---
 
-Get the **Energy Panda** to wait 5 seconds for the **Main Panda's** introduction before moving.
+Get the **Energy Panda** sprite to wait 5 seconds for the **Main Panda** sprite's introduction before moving.
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -49,7 +49,7 @@ show
 
 --- task ---
 
-Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Energy Panda** moves from side to side.
+Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Energy Panda** sprite moves from side to side.
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -68,13 +68,13 @@ end
 
 --- /task ---
 
-Get the **Climate action Panda** to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** and `hide`{:class="block3looks"} when it is finished explaining its goal.
+Get the **Energy Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
 
 --- task ---
 
 Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks.
 
-![image of the Climate action Panda sprite](images/climateactionpanda-sprite.png)
+![image of the Energy Panda sprite](images/climateactionpanda-sprite.png)
 
 ```blocks3
 when I receive [next v]

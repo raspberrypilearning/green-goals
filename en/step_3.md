@@ -72,7 +72,7 @@ end
 
 --- /task ---
 
-Get the **Climate Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** and `hide`{:class="block3looks"} when it is finished explaining its goal.
+Get the **Climate Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
 
 --- task ---
 
