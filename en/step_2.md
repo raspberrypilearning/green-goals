@@ -28,9 +28,13 @@ Watch this short video, which shows what to do next.
 Now follow each task given below.
 --- /no-print ---
 
-As you may remember, if you completed the [Focus on the Prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize) project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway, `Broadcasts`{:class="block3events"} are messages that are sent by a sprite for some or all other sprites to receive.
+`Broadcasts`{:class="block3events"} are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the Prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize) project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway.
 
-In the `Events`{:class="block3events"} blocks menu, select the following blocks: `broadcast`{:class="block3events"}, `broadcast next`{:class="block3events"}, and `when green flag clicked`{:class="block3events"} blocks
+--- task ---
+
+In the `Events`{:class="block3events"} menu, select the following blocks: `broadcast`{:class="block3events"}, `broadcast next`{:class="block3events"}, and `when green flag clicked`{:class="block3events"} blocks.
+
+--- /task ---
 
 --- task ---
 
