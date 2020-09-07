@@ -6,11 +6,11 @@ Here is the code you have already. There is some music and some text explaining 
 
 ![climate action starter code](images/climateaction_startercode.png)
 
-Get the **Climate Action Panda** to respond to the **Main Panda's** `broadcast`{:class="block3events"} which you set-up in the previous step (Step 2).
+Get the **Climate Action Panda** to respond to the **Main Panda's** `broadcast`{:class="block3events"} which you set up in the previous step (Step 2).
 
 --- task ---
 
-Start a new script with the `when backdrop switches to [Climate Action v]`{:class="block3events"} and use a `show`{:class="block3looks"} block to show the **Climate Action Panda** on the stage.
+Start a new script with the `when backdrop switches to Climate Action`{:class="block3events"} and use a `show`{:class="block3looks"} block to show the **Climate Action Panda** on the stage.
 
 ```blocks3
 when backdrop switches to [Climate Action v]
@@ -31,10 +31,18 @@ show
 
 --- /task ---
 
+In the starter code, you can see a `wait 5 seconds`{:class="block3control"} and that means that the **Climate Action Panda** waits for 5 seconds while the **Main Panda** introduces them.
+
 --- task ---
 
+Get the **Climate Action Panda** to wait 5 seconds before moving as well.
 
-
+```blocks3
+when backdrop switches to (Climate Action v)
+set size to (50) %
+show
++ wait (5) seconds
+```
 --- /task ---
 
 --- task ---
