@@ -23,15 +23,9 @@ show
 
 --- task ---
 
-<<<<<<< HEAD
-Set the size of the **Climate Panda**.
+Set the size of the **Climate Panda** sprite.
 
 ![image of the Climate Panda sprite](images/climatenpanda-sprite.png)
-=======
-Set the size of the **Climate action Panda** sprite:
-
-![image of the Climate action Panda sprite](images/climateactionpanda-sprite.png)
->>>>>>> b7adb551cadd6727f27adcab0f0e2158bc7545d3
 
 ```blocks3
 when backdrop switches to (Climate action v)
@@ -41,23 +35,13 @@ show
 
 --- /task ---
 
-<<<<<<< HEAD
-In the starter code, you can see a `wait 5 seconds`{:class="block3control"} and that means that the **Climate Panda** waits for 5 seconds while the **Main Panda** introduces them.
+In the starter code, you can see a `wait 5 seconds`{:class="block3control"} and that means that the **Climate Panda** sprite waits for 5 seconds while the **Main Panda** introduces them.
 
 --- task ---
 
-Get the **Climate Panda** to wait 5 seconds before moving as well.
+Get the **Climate Panda** sprite to wait 5 seconds before moving as well.
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
-=======
-In the starter code, you can see a `wait 5 seconds`{:class="block3control"} and that means that the **Climate action Panda** sprite waits for 5 seconds while the **Main Panda** sprite introduces them.
-
---- task ---
-
-Get the **Climate action Panda** sprite to wait 5 seconds before moving as well:
-
-![image of the Climate action Panda sprite](images/climateactionpanda-sprite.png)
->>>>>>> b7adb551cadd6727f27adcab0f0e2158bc7545d3
 
 ```blocks3
 when backdrop switches to (Climate action v)
@@ -69,15 +53,9 @@ show
 
 --- task ---
 
-<<<<<<< HEAD
-Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate Panda** gets bigger and smaller.
+Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate Panda** sprite gets bigger and smaller.
 
 ![image of the Climate Panda sprite](images/climatenpanda-sprite.png)
-=======
-Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate action Panda** sprite gets bigger and smaller:
-
-![image of the Climate action Panda sprite](images/climateactionpanda-sprite.png)
->>>>>>> b7adb551cadd6727f27adcab0f0e2158bc7545d3
 
 ```blocks3
 when backdrop switches to (Climate action v)
@@ -94,21 +72,13 @@ end
 
 --- /task ---
 
-<<<<<<< HEAD
-Get the **Climate Panda** to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** and `hide`{:class="block3looks"} when it is finished explaining its goal.
-=======
-Get the **Climate action Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
->>>>>>> b7adb551cadd6727f27adcab0f0e2158bc7545d3
+Get the **Climate Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** and `hide`{:class="block3looks"} when it is finished explaining its goal.
 
 --- task ---
 
 Start a new script with the `when I recieve next`{:class="block3events"} and `hide`{:class="block3looks"} blocks:
 
-<<<<<<< HEAD
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
-=======
-![image of the Climate action Panda sprite](images/climateactionpanda-sprite.png)
->>>>>>> b7adb551cadd6727f27adcab0f0e2158bc7545d3
 
 ```blocks3
 when I receive [next v]
