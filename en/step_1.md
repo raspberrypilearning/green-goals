@@ -1,7 +1,9 @@
 ## Introduction
 
-Learn about five of the United Nations’ Sustainable Development Goals which focus on the environment, by coding the United Nations’ pandas. The e nvironment-focused goals are: 
-+ [Affordable and clean energy[(https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html)
+Learn about the United Nations’ Sustainable Development Goals which focus on the environment, by coding the United Nations’ pandas. 
+
+The fiveenvironment-focused goals are: 
++ [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html)
 + [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html)
 + [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html)
 + [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html)
@@ -44,9 +46,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Use broadcast to control an animation sequence
++ Use `Broadcast`{:class="block3events"} to control an animation sequence
 + Use a combination of `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Operators`{:class="block3operators"} to create sprite action with accompanying `Sound`{:class="block3sound"}
-+ Learn about the United Nations Development goals by creating an animation about them
++ Learn about the United Nations' Sustainable Development Goals by creating an animation about them
 
 --- /collapse ---
 
