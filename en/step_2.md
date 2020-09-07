@@ -1,6 +1,6 @@
 ## Walk through the goals
 
-Get the United Nations' panda to walk through the five Green Goal, making the five Green Goal Panda sprites respond to the backdrop changes.
+Get the United Nations' panda, the **Main Panda** sprite, to introduce the five Green Goals. The **Main Panda** sprite will walk through a different backdrop for each goal and there, in the related scene, will be a unique Green Goal Panda sprite who will explain the goal with action, sounds and words.
 
 --- task ---
 
@@ -14,11 +14,9 @@ The Scratch environment that you will open looks like this:
 
 --- /task ---
 
-In this project, there is one **Main Panda** sprite that introduces the five Green Goal pandas in turn. Each panda represent a different goal and has their own related backdrop and action.
+You will be programming the **Main Panda** sprite to walk through each of the five Green Goal backdrops.
 
 [[picture/screenshot? pandas and backdrops]]
-
-You will be programming the **Main Panda** sprite to walk through each of the five Green Goal backdrops.
 
 --- no-print ---
 Watch this short video, which shows what to do next.
