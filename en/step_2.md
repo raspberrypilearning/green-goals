@@ -1,6 +1,6 @@
 ## Walk through the goals
 
-Get the UN panda to walk through the different Green Goals, making the Green Goal Panda sprites respond to the backdrop changes.
+Get the United Nations' panda to walk through the five Green Goal, making the five Green Goal Panda sprites respond to the backdrop changes.
 
 --- task ---
 
@@ -14,11 +14,11 @@ The Scratch environment that you will open looks like this:
 
 --- /task ---
 
-In this project, there is one **Main Panda** sprite that walks through the UN Sustainable Development Goals (Green Goals) and introduces the other pandas. Each Green Goal has its own Panda sprite and its own backdrop.
+In this project, there is one **Main Panda** sprite that introduces the five Green Goal pandas in turn. Each panda represent a different goal and has their own related backdrop and action.
 
 [[picture/screenshot? pandas and backdrops]]
 
-You will be programming the **Main Panda** sprite to walk through each of the 5 backdrops representing the Green Goals.
+You will be programming the **Main Panda** sprite to walk through each of the five backdrops.
 
 --- no-print ---
 Watch this short video, which shows what to do next.
@@ -28,13 +28,13 @@ Watch this short video, which shows what to do next.
 Now follow each task given below.
 --- /no-print ---
 
-As you may remember if you've done the Focus on the Prize project, **Broadcasts** are messages that are sent by a sprite for some or all other sprites to receive.
+As you may remember, if you completed the [Focus on the Prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize) project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway, `Broadcasts`{:class="block3events"} are messages that are sent by a sprite for some or all other sprites to receive.
 
-In the `Events`{:class="block3events"} blocks menu, select the `broadcast`{:class="block3events"}, `broadcast next`{:class="block3events"}, and `whenflagclicked`{:class="block3events"} blocks
+In the `Events`{:class="block3events"} blocks menu, select the following blocks: `broadcast`{:class="block3events"}, `broadcast next`{:class="block3events"}, and `when green flag clicked`{:class="block3events"} blocks
 
 --- task ---
 
-Arrange the blocks so that you have two scripts, one for setting up the animation sequence for the backdrops, and the other for the **Main Panda** sprite, which continues the animation through the Green Goals.
+Arrange the blocks so that you have two scripts, one for setting up the animation sequence for the backdrops, and the other for the **Main Panda** sprite, which continues the animation through the five green goals.
 
 ![screenshot of the two scripts side by side](images/broadcast-scripts.png)
 
@@ -44,7 +44,7 @@ Get the **Main Panda** sprite to start from the bottom left corner.
 
 --- task ---
 
-Add a `go to x:() y:()`{:class="block3motion"} block from the `Motion`{:class="block3motion"} menu and change the coordinates to x: `-168` and y: `-87`.
+From the `Motion`{:class="block3motion"} menu, add a `go to x:() y:()`{:class="block3motion"} block. Change the coordinates to x: `-168` and y: `-87`.
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -55,7 +55,7 @@ when I receive [next v]
 
 --- /task ---
 
-Show the **Main Panda** sprite at the beginning of each Green Goal, and hide it at the end.
+Show the **Main Panda** sprite at the beginning and hide it at the end.
 
 --- task ---
 
@@ -92,7 +92,7 @@ hide
 
 --- /task ---
 
-When the **Main Panda** reaches the edge of the stage, program the next backdrop to appear.
+You now need to program the next backdrop to appear when the **Main Panda** reaches the edge of the stage.
 
 --- task ---
 
@@ -112,11 +112,11 @@ hide
 
 --- /task ---
 
-Uh oh, the Main Panda disappears when it gets to the [[NEXT?]] backdrop!
+Uh oh, the **Main Panda** disappears when it gets to the [[NEXT?]] backdrop!
 
 [[GIF HERE?]]
 
-Make sure the Main Panda is at the front of all the backdrop layers.
+Make sure the **Main Panda** is at the front of all the backdrop layers.
 
 --- task ---
 
@@ -137,7 +137,7 @@ next backdrop
 
 --- /task ---
 
-Add the finishing touches. Get the Main Panda to introduce the panda for each Green Goal, and add some waiting time to let the Green Goal pandas explain their goals.
+Add the finishing touches. Get the Main Panda to introduce the panda for each Green Goal by annoncuing their **Backdrop** title. And add some waiting time to let the Green Goal pandas explain their goals.
 
 --- task ---
 
