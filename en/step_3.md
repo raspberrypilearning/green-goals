@@ -25,7 +25,7 @@ show
 
 Set the size of the **Climate Panda** sprite.
 
-![image of the Climate Panda sprite](images/climatenpanda-sprite.png)
+![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
 ```blocks3
 when backdrop switches to (Climate action v)

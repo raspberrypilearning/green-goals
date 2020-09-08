@@ -51,7 +51,7 @@ show
 
 --- task ---
 
-Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Energy Panda** sprite moves up and down the stage.
+Add blocks so that the **Energy Panda** sprite moves up and down the stage.
 
 THIS NEEDS TO BE EXPLAINED MORE.
 
@@ -66,6 +66,7 @@ wait (5) seconds
 + repeat until <not <([backdrop # v] of (stage)) = (4)>>S
   move (2) steps
   if on edge, bounce
+end
 ```
 
 --- /task ---

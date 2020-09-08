@@ -42,7 +42,7 @@ Go to the **Code** tab for the **Energy Sprite** and find the repeat loop you us
 
 ```blocks3
 when backdrop switches to (Affordable and clean energy v)
-point in direction (90) 
+point in direction (90)
 show
 wait (5) seconds
 + repeat (18)
@@ -63,7 +63,9 @@ Highlight the repeat loop by clicking on it. Make sure only the 5 blocks you nee
 
 --- task ---
 
-Drag these blocks into the image of the **Energy Panda** sprite and make sure you put them in the script you started earlier in this step.
+Drag these blocks into the image of the **Reuse Panda** sprite and make sure you put them in the script you started earlier in this step.
+
+![image of the Reuse Panda sprite](images/reusepanda-sprite.png)
 
 ```blocks3
 when backdrop switches to [Responsible consumption and production v]
@@ -79,13 +81,13 @@ end
 
 --- /task ---
 
-Get the **Energy Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
+Get the **Reuse Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
 
 --- task ---
 
 Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks.
 
-![image of the Energy Panda sprite](images/climateactionpanda-sprite.png)
+![image of the Reuse Panda sprite](images/reusepanda-sprite.png)
 
 ```blocks3
 when I receive [next v]

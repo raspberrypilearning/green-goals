@@ -1,7 +1,15 @@
-## What next?
+## Challenge: get creative!
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+Can you add ...? What about ???
 
-![ProjectName project](images/projectname-project.png)
+Think about some of the things that you have learned in other Scratch projects that ... such as ...
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+--- no-print ---
+
+DO WE WANT AN EXAMPLE HERE? THE BELOW IS AN EXAMPLE FOR FOCUS ON THE PRIZE
+
+<div class="scratch-preview">
+<iframe src="https://scratch.mit.edu/projects/405012286/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+</div>
+
+--- /no-print ---
