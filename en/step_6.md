@@ -1,6 +1,6 @@
 ## Life below water
 
-Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html) with a specfic action, sound and setting.
+Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html), with a specfic action, sound and setting.
 
 Just like in the last step, there is some code here with some music and some text explaining theLife Below Water goal as well as a script that gets the **Water Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
 
@@ -63,7 +63,7 @@ point in direction (0)
 set rotation style [left-right v]
 show
 wait (5) seconds
-+ repeat until <not <([backdrop # v] of (stage)) = (4)>>S
++ repeat until <not <([backdrop # v] of (stage)) = (4)>>
   move (2) steps
   if on edge, bounce
 end

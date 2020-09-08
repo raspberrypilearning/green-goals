@@ -1,6 +1,6 @@
 ## Life on land
 
-Get the **Land Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html) with a specfic action, sound and setting.
+Get the **Land Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html), with a specfic action, sound and setting.
 
 Just like in the last step, there is some code here with some music and some text explaining theLife Below Water goal as well as a script that gets the **Land Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
 
