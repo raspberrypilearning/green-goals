@@ -55,7 +55,7 @@ Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Ener
 
 ```blocks3
 when backdrop switches to (Affordable and clean energy v)
-set size to (50) %
+point in direction (90) %
 show
 wait (5) seconds
 + repeat (18)

@@ -32,15 +32,17 @@ show
 ```
 --- /task ---
 
+To get the **Reuse Panda** sprite to move, reuse code from the **Energy Panda** sprite.
+
 --- task ---
 
-(((((Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Energy Panda** sprite moves from side to side.
+Go to the **Code** tab for the **Energy Sprite** and find the repeat loop you used to get the sprite to move. It should look like this:
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
 ```blocks3
 when backdrop switches to (Affordable and clean energy v)
-set size to (50) %
+point in direction (90) 
 show
 wait (5) seconds
 + repeat (18)
@@ -49,7 +51,31 @@ wait (5) seconds
   turn left (15) degrees
   wait (0.2) seconds
 end
-```)))))
+```
+
+--- /task ---
+
+--- task ---
+
+Highlight the repeat loop by clicking on it. Make sure only the 5 blocks you need are highlighted (not the whole script).
+
+--- /task ---
+
+--- task ---
+
+Drag these blocks into the image of the **Energy Panda** sprite and make sure you put them in the script you started earlier in this step.
+
+```blocks3
+when backdrop switches to [Responsible consumption and production v]
+show
+wait (5) seconds
++ repeat (18)
+  turn right (15) degrees
+  wait (0.2) seconds
+  turn left (15) degrees
+  wait (0.2) seconds
+end
+```
 
 --- /task ---
 
