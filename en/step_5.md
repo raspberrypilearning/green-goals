@@ -10,6 +10,8 @@ You will see some code  already  provided for you. This includes music and text 
 
 Get the **Waste Panda** sprite to respond to the **Main Panda** sprite's `broadcast`{:class="block3events"}.
 
+--- /task ---
+
 --- task ---
 
 Start a new script with the `when backdrop switches to Responsible comsumption and production`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Waste Panda** sprite on the stage:
