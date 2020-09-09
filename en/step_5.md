@@ -6,7 +6,7 @@ This Green Goals panda is called RRR to stand for Reuse, Reduce, Recycle. Get th
 
 Go to the **Code** tab for the **RRR Panda**.
 
-You will see some code  already provided for you. This includes music and text explaining the Responsible consumption and production goal as well as a script that gets the **RRR Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+You will see some code  already provided for you. The code includes music and text explaining the Responsible consumption and production goal as well as a script that gets the **RRR Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
 
 --- /task ---
 
