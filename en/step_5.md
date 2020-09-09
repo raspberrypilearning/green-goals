@@ -12,7 +12,7 @@ Get the **Waste Panda** sprite to respond to the **Main Panda** sprite's `broadc
 
 --- task ---
 
-Start a new script with the `when backdrop switches to Responsible comsumption and production`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Waste Panda** sprite on the stage.
+Start a new script with the `when backdrop switches to Responsible comsumption and production`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Waste Panda** sprite on the stage:
 
 ![image of the Waste Panda sprite](images/wastepanda-sprite.png)
 
@@ -25,7 +25,7 @@ show
 
 --- task ---
 
-Get the **Waste Panda** sprite to wait 5 seconds for the **Main Panda** sprite's introduction before moving.
+Get the **Waste Panda** sprite to wait 5 seconds for the **Main Panda** sprite's introduction before moving:
 
 ![image of the Waste Panda sprite](images/wastepanda-sprite.png)
 
@@ -67,7 +67,7 @@ Highlight the repeat loop by clicking on it. Make sure only the 5 blocks you nee
 
 --- task ---
 
-Drag these blocks into the image of the **Waste Panda** sprite and make sure you put them in the script you started earlier in this step.
+Drag these blocks into the image of the **Waste Panda** sprite and make sure you put them in the script you started earlier in this step:
 
 ![image of the Reuse Panda sprite](images/reusepanda-sprite.png)
 
@@ -89,7 +89,7 @@ Get the **Waste Panda** sprite to respond to the next `broadcast`{:class="block3
 
 --- task ---
 
-Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks.
+Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks:
 
 ![image of the Reuse Panda sprite](images/reusepanda-sprite.png)
 
