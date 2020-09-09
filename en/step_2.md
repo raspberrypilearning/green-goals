@@ -116,7 +116,7 @@ hide
 You now need to program the next backdrop to appear when the **Main Panda** reaches the edge of the stage.
 
 --- task ---
-Add a `next backdrop`{:class="block3looks"} block to the end of the script:
+Now add the following two blocks to the end of the script: `broadcast next`{:class="block3events"} and `next backdrop`{:class="block3looks"} block
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -158,7 +158,7 @@ next backdrop
 
 --- /task ---
 
-Now add the finishing touches. Get the **Main Panda** sprite to introduce the panda for each Green Goal by announcing each Green Goal's **Backdrop** title. And add some waiting time to let the Green Goal pandas explain their goals.
+Now add the finishing touches. Get the **Main Panda** sprite to introduce the panda for each Green Goal by announcing each Green Goal's **Backdrop** title. And add some wait time so that the Green Goal pandas can explain their goal.
 
 --- task ---
 Add a `say backdrop name`{:class="block3looks"} and a `wait`{:class="block3control"} block:
