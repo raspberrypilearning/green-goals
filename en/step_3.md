@@ -4,7 +4,7 @@ You are going to get the **Climate Panda** sprite to explain the United Nations'
 
 --- task ---
 
-Go to the **Code tab** for the **Climate Panda** sprite.
+Go to the **Code** tab for the **Climate Panda** sprite.
 
 You will see some code already provided for you. The code includes music and text explaining the Climate action goal as well as a script that gets the **Climate Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
 
