@@ -6,7 +6,7 @@ Get the **Climate Panda** sprite to respond to the United Nations' Sustainable D
 
 Go to the Code tab for the **Energy Panda** sprite.
 
-You will see some code already provided for you. This includes music and text explaining the Affordable and clean energy goal as well as a script that gets the **Energy Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+You will see some code already provided for you. The code includes music and text explaining the Affordable and clean energy goal as well as a script that gets the **Energy Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
 
 --- /task ---
 
