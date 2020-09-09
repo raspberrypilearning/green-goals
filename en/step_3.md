@@ -10,7 +10,13 @@ Get the **Climate Panda** sprite to respond to the **Main Panda** sprite's `broa
 
 --- task ---
 
-Start a new script with the `when backdrop switches to Climate action`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Climate Panda** sprite on the stage:
+Go to the **Code tab** for the **Climate Panda** sprite.
+
+--- /task ---
+
+--- task ---
+
+Add a `when backdrop switches to Climate action`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Climate Panda** sprite on the stage:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
@@ -35,7 +41,7 @@ show
 
 --- /task ---
 
-In the starter code, you can see a `wait 5 seconds`{:class="block3control"} and that means that the **Climate Panda** sprite waits for 5 seconds while the **Main Panda** introduces them.
+In the starter code, you can see a `wait 5 seconds`{:class="block3control"}. It means that the **Climate Panda** sprite waits for 5 seconds while the **Main Panda** introduces them.
 
 --- task ---
 
