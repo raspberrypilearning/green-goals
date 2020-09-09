@@ -61,14 +61,14 @@ Now the **Land Panda** sprite needs to jump up and down.
 
 --- task ---
 
+![image of the Land Panda sprite](images/landpanda-sprite.png)
+
 Add in a `repeat`{:class="block3control"} block and within it the following: 
 
 `change y by`{:class="block3motion"} block with a value of `10` (sprite goes up)
 `wait`{:class="block3control"} block (slow down action)
 `change y by`{:class="block3motion"} block with a value of `-10` (sprite goes down)
 `wait`{:class="block3control"} block (slow down action)
-
-![image of the Land Panda sprite](images/landpanda-sprite.png)
 
 ```blocks3
 when backdrop switches to (Life on Land v)
@@ -89,7 +89,7 @@ Get the **Land Panda** sprite to respond to the next `broadcast`{:class="block3e
 
 --- task ---
 
-Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks.
+Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks:
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
