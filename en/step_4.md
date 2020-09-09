@@ -7,10 +7,13 @@ As with the previous step, there is some code here with some music and some text
 Get the **Energy Panda** sprite to respond to the **Main Panda** sprite's `broadcast`{:class="block3events"}.
 
 --- task ---
+
 Go to the Code tab for the **Energy Panda** sprite.
+
 --- /task ---
 
 --- task ---
+
 Add a `when backdrop switches to Affordable and clean energy`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Energy Panda** sprite on the stage:
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
