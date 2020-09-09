@@ -28,6 +28,7 @@ show
 --- /task ---
 
 Reduce the size of the **Climate Panda** sprite.
+
 --- task ---
 
 Add a `set size to`{:class="block3looks"} block to `50` percent:
@@ -56,6 +57,7 @@ set size to (50) %
 show
 + wait (5) seconds
 ```
+
 --- /task ---
 
 --- task ---
