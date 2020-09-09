@@ -6,17 +6,15 @@ Get the **Land Panda** sprite to respond to the United Nations' Sustainable Deve
 
 Go to the **Code** tab for the **Land Panda**.
 
-Just like in the last step, there is some code here with some music and some text explaining theLife Below Water goal as well as a script that gets the **Land Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
-
-You will see some code already provided for you. The code includes music and text explaining the Life Below Water goal as well as a script that gets the Water Panda sprite to hide when flag clicked.
-
-Get the **Land Panda** sprite to respond to the **Main Panda** sprite's `broadcast`{:class="block3events"}.
+You will see some code already provided for you. The code includes music and text explaining the Life on Land goal as well as a script that gets the **Land Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
 
 --- /task ---
 
+Get the **Land Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
+
 --- task ---
 
-Start a new script with the `when backdrop switches to Life on Land`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Land Panda** sprite on the stage.
+Add a  `when backdrop switches to Life on Land`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Land Panda** sprite on the stage:
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
@@ -27,9 +25,11 @@ show
 
 --- /task ---
 
+Change the size of the **Land Panda** sprite.
+
 --- task ---
 
-Set the size of the **Land Panda** sprite.
+Reduce the size of the **Land Panda** sprite by adding a `set size to`{:class="block3looks"} block and change the value to `50` percent:
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
@@ -41,9 +41,11 @@ show
 
 --- /task ---
 
+Before it moves, get the **Land Panda** sprite to wait to be introduced by the **Main Panda**.
+
 --- task ---
 
-Get the **Land Panda** sprite to wait 5 seconds for the **Main Panda** sprite's introduction before moving.
+Add a `wait`{:class="block3looks"} block and change its value to `5` seconds:
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
@@ -55,9 +57,16 @@ show
 ```
 --- /task ---
 
+Now the **Land Panda** sprite needs to jump up and down.
+
 --- task ---
 
-Add blocks so that the **Land Panda** sprite jumps up and down.
+Add in a `repeat`{:class="block3control"} block and within it the following: 
+
+`change y by`{:class="block3motions"} blocks with a value of `10`
+`wait`{:class="block3control"} block (to slow the up action)
+`change y by`{:class="block3motions"} blocks with a value of `-10`
+`wait`{:class="block3control"} block (to slow the down action)
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
