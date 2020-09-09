@@ -39,7 +39,7 @@ show
 
 --- /task ---
 
-Remember that the Green Goal sprites need to wait to let the **Main Panda** sprite introduce them.
+As with the previous Green Goals sprites, the **Energy Panda** sprite needs to wait to be introduced by the **Main Panda** sprite.
 
 --- task ---
 
