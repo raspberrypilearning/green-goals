@@ -10,7 +10,7 @@ Get the **Climate Panda** sprite to respond to the **Main Panda** sprite's `broa
 
 --- task ---
 
-Start a new script with the `when backdrop switches to Climate action`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Climate Panda** sprite on the stage.
+Start a new script with the `when backdrop switches to Climate action`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Climate Panda** sprite on the stage:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
@@ -23,7 +23,7 @@ show
 
 --- task ---
 
-Set the size of the **Climate Panda** sprite.
+Set the size of the **Climate Panda** sprite:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
@@ -39,7 +39,7 @@ In the starter code, you can see a `wait 5 seconds`{:class="block3control"} and 
 
 --- task ---
 
-Get the **Climate Panda** sprite to wait 5 seconds before moving as well.
+Get the **Climate Panda** sprite to wait 5 seconds before moving as well:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
@@ -53,7 +53,7 @@ show
 
 --- task ---
 
-Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate Panda** sprite gets bigger and smaller.
+Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate Panda** sprite gets bigger and smaller:
 
 ![image of the Climate Panda sprite](images/climatenpanda-sprite.png)
 
