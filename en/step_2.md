@@ -115,7 +115,7 @@ hide
 
 --- task ---
 
-Run your program to test it. At the end of every task, test your code.
+Run your program to test it.
 
 --- /task ---
 
