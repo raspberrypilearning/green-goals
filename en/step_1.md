@@ -1,5 +1,7 @@
 ## Introduction
 
+In this pathway you will be using technology to protect the environment. In addition to getting ahead with computing you will discover how computing can be used to collect data on the environment, explore the causes of environmental degradation, and analyse the ways in which humans influence and can mitigate the effects on the environment.
+
 Code the United Nations’ pandas to learn about the United Nations’ Sustainable Development Goals which focus on the environment. The five environment-focused goals are:
 + [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html)
 + [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html)
