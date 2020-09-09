@@ -97,7 +97,7 @@ Get the **Main Panda** sprite to move across the stage until it touches the edge
 
 --- task ---
 
-To do this, add the following blocks: `repeat`{:class="block3control"} loop that repeats `move steps`{:class="block3motion"}, adding the value `10`, until the sprite is `touching edge`{:class="block3sensing"}:
+To do this, add the following blocks: `repeat`{:class="block3control"} loop that repeats `move 10 steps`{:class="block3motion"} until the sprite is `touching edge`{:class="block3sensing"}:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
