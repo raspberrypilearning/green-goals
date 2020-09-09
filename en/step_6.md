@@ -10,11 +10,11 @@ You will see some code already provided for you. The code includes music and tex
 
 --- /task ---
 
-Get the **Water Panda** sprite to respond to the `broadcast`{:class="block3events"} of the **Main Panda** sprite. 
+Get the **Water Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite. 
 
 --- task ---
 
-Start a new script with the `when backdrop switches to Life Below Water`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Water Panda** sprite on the stage.
+Add a  `when backdrop switches to Life Below Water`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Water Panda** sprite on the stage.
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
@@ -27,7 +27,7 @@ show
 
 --- task ---
 
-Get the **Water Panda** sprite to point straight up so we can get it to only move up and down the stage, and only rotate left and right.
+Get the **Water Panda** sprite to point straight up so it only moves up and down the stage, and only rotates left and right.
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
@@ -40,9 +40,11 @@ show
 
 --- /task ---
 
+As with the previous Green Goals sprites, **Water Panda** sprite needs to wait to be introduced by the **Main Panda** sprite.
+
 --- task ---
 
-Get the **Water Panda** sprite to wait 5 seconds for the **Main Panda** sprite's introduction before moving.
+Add a `wait`{:class="block3control"} block for `5` seconds:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
@@ -57,7 +59,9 @@ show
 
 --- task ---
 
-Add blocks so that the **Energy Panda** sprite moves up and down the stage.
+Add a `repeat until`{:class="block3control"} block so that the Water Panda sprite does `not`{:class="block3operator"} move unless the backdrop `=`{:class="block3operator"} backdrop 4 (Life below Water):
+
+so that the **Water Panda** sprite moves up and down the stage.
 
 THIS NEEDS TO BE EXPLAINED MORE.
 
