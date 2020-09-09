@@ -1,18 +1,18 @@
 ## Climate action
 
-Get the **Climate Panda** sprite to explain the United Nations' Sustainable Development Goal, [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html), with a specfic action, sound and setting.
-
-Here is the code you have already. There is some music and some text explaining the Climate action goal as well as a script that gets the **Climate Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
-
-![climate action starter code](images/climateaction_startercode.png)
-
-Get the **Climate Panda** sprite to respond to the **Main Panda** sprite's `broadcast`{:class="block3events"} which you set up in the previous step (Step 2).
+You are going to get the **Climate Panda** sprite to explain the United Nations' Sustainable Development Goal, [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 
 Go to the **Code tab** for the **Climate Panda** sprite.
 
+You will see some code already provided for you. This includes music and text explaining the Climate action goal as well as a script that gets the **Climate Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+
+![climate action starter code](images/climateaction_startercode.png)
+
 --- /task ---
+
+Get the **Climate Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite. (You set this up in the previous step).
 
 --- task ---
 
@@ -27,9 +27,10 @@ show
 
 --- /task ---
 
+Reduce the size of the **Climate Panda** sprite.
 --- task ---
 
-Set the size of the **Climate Panda** sprite:
+Add a `set size to`{:class="block3looks"} block to `50` percent:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
