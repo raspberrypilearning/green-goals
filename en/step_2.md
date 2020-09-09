@@ -1,6 +1,6 @@
 ## Walk through the goals
 
-Get the United Nations' panda, the **Main Panda** sprite, to introduce the five Green Goals. The **Main Panda** sprite will walk through a different backdrop for each goal and there, in the related scene, will be a unique Green Goal Panda sprite who will explain the goal with action, sounds and words.
+The **Main Panda** sprite will introduce the five Green Goals in turn. The **Main Panda** sprite will walk through a different backdrop for each goal and there, in the related scene, will be five individual Green Goal panda sprite who will explain the goal with action, sounds and words.
 
 --- task ---
 
@@ -26,20 +26,38 @@ Watch this short video, which shows what to do next.
 ![screenshot](images/NOTNAMEDYET.gif)
 
 --- /no-print ---
+
 --- /task ---
+
+You will be using the `Broadcast`{:class="block3events"} blocks which are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the Prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize) {:target="_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"} pathway.
+
 Now follow each task given below.
 
-You will be using the `Broadcast`{:class="block3events"} blocks which are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the Prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize) project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway.
+**MainPanda** will have two scripts. The first script will set up the animation sequence for the backdrops. The second script is for the **Main Panda** sprite to continue its animation through the five green goals.
 
 --- task ---
 
-In the `Events`{:class="block3events"} menu, select the following blocks: `broadcast`{:class="block3events"}, `broadcast next`{:class="block3events"}, and `when green flag clicked`{:class="block3events"} blocks.
+Create the first script for **Main Panda**. In the `Events`{:class="block3events"} blocks menu, select the following blocks: `when green flag clicked`{:class="block3events"} and `broadcast message1`{:class="block3events"}. Click on the dropdown in`broadcast new message`{:class="block3events"} block, select new message and title it 'next'.
+
+```blocks3
+when green flag clicked
+broadcast [next]
+```
 
 --- /task ---
 
 --- task ---
 
-Arrange the blocks so that you have two scripts. The first script will set up the animation sequence for the backdrops. The second script is for the **Main Panda** sprite to continue the animation through the five green goals.
+Create the second script for **Main Panda**. In the `Events`{:class="block3events"} blocks menu, select the `when I receive next`{:class="block3events"} block.
+
+```blocks3
+when I receive next
+```
+--- /task ---
+
+--- task ---
+
+Arrange the blocks so that you have two scripts. 
 
 ![screenshot of the two scripts side by side](images/broadcast-scripts.png)
 
@@ -54,7 +72,7 @@ From the `Motion`{:class="block3motion"} menu, add a `go to x:() y:()`{:class="b
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when I receive [next v]
+when I receive next
 + go to x: (-168) y: (-87)
 ```
 
@@ -69,7 +87,7 @@ Go to the `Looks`{:class="block3looks"} menu. Add the `show`{:class="block3looks
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when flag clicked
+when I receive next
 go to x: (-168) y: (-87)
 +show
 +hide
@@ -86,7 +104,7 @@ Add a `repeat`{:class="block3control"} loop with a `Sensing`{:class="block3sensi
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when flag clicked
+when I receive next
 go to x: (-168) y: (-87)
 show
 + repeat until <touching[edge v]>
@@ -105,7 +123,7 @@ Add a `next backdrop`{:class="block3looks"} block to the end of the script:
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when flag clicked
+when I receive next
 go to x: (-168) y: (-87)
 show
 repeat until <touching[edge v]>
@@ -128,7 +146,7 @@ To make sure that *Main Panda** is at the front of all the backdrop layers add a
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when flag clicked
+when I receive next
 go to x: (-168) y: (-87)
 show
 + go to [front v] layer
@@ -150,7 +168,7 @@ Add a `say backdrop name`{:class="block3looks"} and a `wait`{:class="block3contr
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when flag clicked
+when I receive next
 go to x: (-168) y: (-87)
 show
 go to [front v] layer
