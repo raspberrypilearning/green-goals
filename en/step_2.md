@@ -39,7 +39,7 @@ In the `Events`{:class="block3events"} menu, select the following blocks: `broad
 
 --- task ---
 
-Arrange the blocks so that you have two scripts, one for setting up the animation sequence for the backdrops, and the other for the **Main Panda** sprite, which continues the animation through the five green goals.
+Arrange the blocks so that you have two scripts. The first script will set up the animation sequence for the backdrops. The second script is for the **Main Panda** sprite to continue the animation through the five green goals.
 
 ![screenshot of the two scripts side by side](images/broadcast-scripts.png)
 
@@ -64,7 +64,7 @@ Show the **Main Panda** sprite at the beginning and hide it at the end.
 
 --- task ---
 
-Go to the `Looks`{:class="block3looks"} menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+Go to the `Looks`{:class="block3looks"} menu. Add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -100,6 +100,7 @@ hide
 You now need to program the next backdrop to appear when the **Main Panda** reaches the edge of the stage.
 
 --- task ---
+Add a `next backdrop`{:class="block3looks"} block to the end of the script:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -117,13 +118,12 @@ hide
 
 --- /task ---
 
-Uh oh, the **Main Panda** disappears when it gets to the [[NEXT?]] backdrop!
+Oh no! The **Main Panda** disappears when it gets to the [[NEXT?]] backdrop!
 
 [[GIF HERE?]]
 
-Make sure the **Main Panda** is at the front of all the backdrop layers.
-
 --- task ---
+To make sure that *Main Panda** is at the front of all the backdrop layers add a `go to front`{:class="block3looks"} block:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -142,9 +142,10 @@ next backdrop
 
 --- /task ---
 
-Add the finishing touches. Get the Main Panda to introduce the panda for each Green Goal by annoncuing their **Backdrop** title. And add some waiting time to let the Green Goal pandas explain their goals.
+Now add the finishing touches. Get the **Main Panda** sprite to introduce the panda for each Green Goal by announcing each Green Goal's **Backdrop** title. And add some waiting time to let the Green Goal pandas explain their goals.
 
 --- task ---
+Add a `say backdrop name`{:class="block3looks"} and a `wait`{:class="block3control"} block:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
