@@ -33,15 +33,15 @@ You will be using the `Broadcast`{:class="block3events"} blocks which are messag
 
 Now follow each task given below.
 
-**MainPanda** will have two scripts. The first script will set up the animation sequence for the backdrops. The second script is for the **Main Panda** sprite to continue its animation through the five green goals.
+**Main Panda** will have two scripts. The first script will set up the animation sequence for the backdrops. The second script is for the **Main Panda** sprite to continue its animation through the five green goals.
 
 --- task ---
 
-Create the first script for **Main Panda**. In the `Events`{:class="block3events"} blocks menu, select the following blocks: `when green flag clicked`{:class="block3events"} and `broadcast message1`{:class="block3events"}. Click on the dropdown in`broadcast new message`{:class="block3events"} block, select new message and title it 'next'.
+Create the first script for **Main Panda**. In the `Events`{:class="block3events"} blocks menu, select the following blocks: `when green flag clicked`{:class="block3events"} and `broadcast message1`{:class="block3events"}. Click on the dropdown in `broadcast message1`{:class="block3events"} block and select new message then title it 'next'.
 
 ```blocks3
 when green flag clicked
-broadcast [next]
+broadcast [next v]
 ```
 
 --- /task ---
@@ -51,7 +51,7 @@ broadcast [next]
 Create the second script for **Main Panda**. In the `Events`{:class="block3events"} blocks menu, select the `when I receive next`{:class="block3events"} block.
 
 ```blocks3
-when I receive next
+when I receive [next v]
 ```
 --- /task ---
 
