@@ -74,7 +74,7 @@ end
 ```
 --- /task ---
 
-You now need to make **Water Panda** sprite move up to the top of the stage and back down again.
+You now need to make the  **Water Panda** sprite swim up to the top of the stage and back down again.
 
 --- task ---
 To do this add two `Motion`{:class="block3motion"} blocks: `move 2 steps`{:class="block3motion"} and `if on edge, bounce`{:class="block3motion"}:
