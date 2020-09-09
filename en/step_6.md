@@ -1,4 +1,4 @@
-## Life below water
+## Life below Water
 
 Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="_blank"}, with a specfic action, sound and setting.
 
@@ -59,7 +59,7 @@ show
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} block so that the **Water Panda** sprite does `not`{:class="block3operator"} move unless the `backdrop of stage`{:class="block3sensing"}`=`{:class="block3operator"} `4`. The value 4 stands for the 4th backdrop - Life below Water:
+Add a `repeat until`{:class="block3control"} block so that the **Water Panda** sprite does `not`{:class="block3operators"} move unless the `backdrop of stage`{:class="block3sensing"}`=`{:class="block3operators"} `4`. The value 4 stands for the 4th backdrop - Life below Water:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
