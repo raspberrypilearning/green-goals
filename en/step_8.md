@@ -1,8 +1,8 @@
 ## Challenge: get creative!
 
-Can you add ...? What about ???
+How would you explain the green goals using animation and music? Can you add different ways of moving the Panda sprites? Or different ways of interacting with the Main Panda? What about adding costumes, editing with the paint tool, or changing the backdrop or music???
 
-Think about some of the things that you have learned in other Scratch projects that ... such as ...
+Think about some of the things that you have learned in other Scratch projects that involve movement, costumes, sound or graphic effects such as Stress Ball, Butterfly Garden, Focus on the Prize and Same but Different.
 
 --- no-print ---
 
