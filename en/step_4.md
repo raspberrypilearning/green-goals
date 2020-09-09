@@ -56,6 +56,7 @@ show
 --- /task ---
 
 We now want **Energy Panda** sprite to respond by moving from side to side.
+
 --- task ---
 
 Use the following blocks to do this: `turn right`{:class="block3motion"} `15` degrees, `wait 0.2 seconds`{:class="block3control"}, `turn left`{:class="block3motion"} `15` degrees and `wait 0.2 seconds`{:class="block3control"}:
