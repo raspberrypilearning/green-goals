@@ -1,6 +1,6 @@
 ## Walk through the goals
 
-The **Main Panda** sprite will introduce the five Green Goals in turn. The **Main Panda** sprite will walk through a different backdrop for each goal and there, in the related scene, will be five individual Green Goal panda sprite who will explain the goal with action, sounds and words.
+The **Main Panda** sprite will introduce the five Green Goals in turn by walking through a different backdrop for each goal. In the related backdrop, there will be a Green Goal panda sprite explaining the goal with actions, sounds and words.
 
 --- task ---
 
@@ -15,8 +15,6 @@ The Scratch environment that you will open looks like this:
 --- /task ---
 
 You will be programming the **Main Panda** sprite to walk through each of the five Green Goal backdrops.
-
-[[picture/screenshot? pandas and backdrops]]
 
 --- task ---
 
@@ -33,7 +31,7 @@ You will be using the `Broadcast`{:class="block3events"} blocks which are messag
 
 Now follow each task given below.
 
-**Main Panda** will have two scripts. The first script will set up the animation sequence for the backdrops. The second script is for the **Main Panda** sprite to continue its animation through the five green goals.
+The **Main Panda** sprite will have two scripts. The first script will set up the animation sequence for the backdrops. The second script is for the **Main Panda** sprite to continue its animation through the five green goals.
 
 --- task ---
 
@@ -99,7 +97,7 @@ Get the **Main Panda** sprite to move across the stage until it touches the edge
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} loop with a `Sensing`{:class="block3sensing"} condition that repeats `move (10) steps`{:class="block3motion"} until the sprite is `touching(edge)`{:class="block3sensing"}:
+To do this, add the following blocks: `repeat`{:class="block3control"} loop that repeats `move steps`{:class="block3motion"}, adding the value `10`, until the sprite is `touching edge`{:class="block3sensing"}:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
