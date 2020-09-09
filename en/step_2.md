@@ -151,7 +151,6 @@ Add a `say backdrop name`{:class="block3looks"} and a `wait`{:class="block3contr
 when I receive [next v]
 go to x: (-168) y: (-87)
 show
-go to [front v] layer
 + say (backdrop [name v]) for (4) seconds
 + wait (12) seconds
 repeat until <touching[edge v]>
