@@ -55,7 +55,7 @@ show
 ```
 --- /task ---
 
-We now want **Energy Panda** sprite to respond by moving from side to side.
+We now want **Energy Panda** sprite to respond by moving, this time from side to side.
 
 --- task ---
 
@@ -90,6 +90,12 @@ Start a new script with the `when I receive next`{:class="block3events"} and `hi
 when I receive [next v]
 hide
 ```
+
+--- /task ---
+
+--- task ---
+
+Now test your program with the new sprite and backdrop.
 
 --- /task ---
 
