@@ -78,7 +78,7 @@ Get the **Energy Panda** sprite to respond to the next `broadcast`{:class="block
 
 --- task ---
 
-Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks.
+Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks:
 
 ![image of the Energy Panda sprite](images/climateactionpanda-sprite.png)
 
