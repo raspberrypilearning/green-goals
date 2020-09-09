@@ -63,10 +63,10 @@ Now the **Land Panda** sprite needs to jump up and down.
 
 Add in a `repeat`{:class="block3control"} block and within it the following: 
 
-`change y by`{:class="block3motion"} block with a value of `10`
-`wait`{:class="block3control"} block (to slow the up action)
-`change y by`{:class="block3motion"} block with a value of `-10`
-`wait`{:class="block3control"} block (to slow the down action)
+`change y by`{:class="block3motion"} block with a value of `10` (so **Land Panda** sprite goes up)
+`wait`{:class="block3control"} block (to slow down **Land Panda**'s action)
+`change y by`{:class="block3motion"} block with a value of `-10` (so **Land Panda** sprite goes down)
+`wait`{:class="block3control"} block (to slow down **Land Panda**'s action)
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
