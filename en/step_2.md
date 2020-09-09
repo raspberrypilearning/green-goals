@@ -87,7 +87,7 @@ Go to the `Looks`{:class="block3looks"} menu. Add the `show`{:class="block3looks
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when I receive next
+when I receive [next v]
 go to x: (-168) y: (-87)
 +show
 +hide
@@ -104,7 +104,7 @@ Add a `repeat`{:class="block3control"} loop with a `Sensing`{:class="block3sensi
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when I receive next
+when I receive [next v]
 go to x: (-168) y: (-87)
 show
 + repeat until <touching[edge v]>
@@ -123,7 +123,7 @@ Add a `next backdrop`{:class="block3looks"} block to the end of the script:
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when I receive next
+when I receive [next v]
 go to x: (-168) y: (-87)
 show
 repeat until <touching[edge v]>
@@ -146,7 +146,7 @@ To make sure that *Main Panda** is at the front of all the backdrop layers add a
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when I receive next
+when I receive [next v]
 go to x: (-168) y: (-87)
 show
 + go to [front v] layer
@@ -168,7 +168,7 @@ Add a `say backdrop name`{:class="block3looks"} and a `wait`{:class="block3contr
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
 ```blocks3
-when I receive next
+when I receive [next v]
 go to x: (-168) y: (-87)
 show
 go to [front v] layer
