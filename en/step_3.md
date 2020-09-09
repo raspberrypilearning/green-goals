@@ -96,4 +96,10 @@ hide
 
 --- /task ---
 
+--- task ---
+
+Now test your program with the new sprite and backdrop.
+
+--- /task ---
+
 --- save ---
