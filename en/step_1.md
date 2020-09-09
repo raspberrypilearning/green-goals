@@ -3,11 +3,11 @@
 In this pathway you will be using technology to protect the environment. In addition to getting ahead with computing you will discover how computing can be used to collect data on the environment, explore the causes of environmental damage, and think the ways in which humans have an influence on the environment.
 
 Code the United Nations’ pandas to learn about the United Nations’ Sustainable Development Goals which focus on the environment. The United Nations' is a group of countries that work together to make the world a better place. Their five environment-focused goals are:
-+ [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html)
-+ [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html)
-+ [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html)
-+ [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html)
-+ [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html)
++ [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
++ [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="_blank"}
++ [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}
++ [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="_blank"}
++ [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html){:target="_blank"}
 
 We've named these goals Green Goals.
 
