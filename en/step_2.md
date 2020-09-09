@@ -46,7 +46,7 @@ broadcast [next v]
 
 --- task ---
 
-Create the second script for **Main Panda**. In the `Events`{:class="block3events"} blocks menu, select the `when I receive next`{:class="block3events"} block.
+Create the second script for **Main Panda**. In the `Events`{:class="block3events"} blocks menu, select the `when I receive next`{:class="block3events"} block:
 
 ```blocks3
 when I receive [next v]
@@ -122,7 +122,7 @@ Run your program to test it. At the end of every task, test your code.
 You now need to program the next backdrop to appear when the **Main Panda** reaches the edge of the stage.
 
 --- task ---
-Now add the following two blocks to the end of the script: `broadcast next`{:class="block3events"} and `next backdrop`{:class="block3looks"} block
+Now add the following two blocks to the end of the script: `broadcast next`{:class="block3events"} and `next backdrop`{:class="block3looks"} blocks:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
