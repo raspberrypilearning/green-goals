@@ -17,7 +17,7 @@ We've named these goals Green Goals.
 Add instructions for interacting with the embedded content here.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/423884556/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
 
