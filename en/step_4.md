@@ -1,16 +1,16 @@
 ## Affordable and clean energy
 
-Get the **Climate Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html), with a specfic action, sound and setting.
-
-As with the previous step, there is some code here with some music and some text explaining the Affordable and clean energy goal as well as a script that gets the **Energy Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
-
-Get the **Energy Panda** sprite to respond to the **Main Panda** sprite's `broadcast`{:class="block3events"}.
+Get the **Climate Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 
 Go to the Code tab for the **Energy Panda** sprite.
 
+You will see some code already provided for you. This includes music and text explaining the Affordable and clean energy goal as well as a script that gets the **Energy Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+
 --- /task ---
+
+Get the **Energy Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
 
 --- task ---
 
@@ -27,7 +27,7 @@ show
 
 --- task ---
 
-Add a `point in direction block`{:class="block3motion"} so that the **Energy Panda** sprite faces right so it appears to interact with the **Main Panda** sprite:
+Add a `point in direction block`{:class="block3motion"} so that the **Energy Panda** sprite faces right it appears to interact with the **Main Panda** sprite:
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -39,7 +39,7 @@ show
 
 --- /task ---
 
-The **Energy Panda** sprite needs to wait for the **Main Panda** sprite to introduce the Green Goal.
+Remember that the Green Goal sprites need to wait to let the **Main Panda** sprite introduce them.
 
 --- task ---
 
