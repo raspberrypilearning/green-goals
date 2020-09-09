@@ -6,7 +6,7 @@ Get the **Water Panda** sprite to respond to the United Nations' Sustainable Dev
 
 Go to the **Code** tab for the **Water Panda**.
 
-You will see some code already provided for you. The code includes music and text explaining the explaining the Life Below Water goal as well as a script that gets the **Water Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+You will see some code already provided for you. The code includes music and text explaining the Life Below Water goal as well as a script that gets the **Water Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
 
 --- /task ---
 
