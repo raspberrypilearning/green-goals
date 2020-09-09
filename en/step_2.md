@@ -18,15 +18,18 @@ You will be programming the **Main Panda** sprite to walk through each of the fi
 
 [[picture/screenshot? pandas and backdrops]]
 
+--- task ---
+
 --- no-print ---
 Watch this short video, which shows what to do next.
 
 ![screenshot](images/NOTNAMEDYET.gif)
 
-Now follow each task given below.
 --- /no-print ---
+--- /task ---
+Now follow each task given below.
 
-`Broadcasts`{:class="block3events"} are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the Prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize) project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway.
+You will be using the `Broadcast`{:class="block3events"} blocks which are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the Prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize) project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) pathway.
 
 --- task ---
 
@@ -46,7 +49,7 @@ Get the **Main Panda** sprite to enter from the bottom left-hand corner.
 
 --- task ---
 
-From the `Motion`{:class="block3motion"} menu, add a `go to x:() y:()`{:class="block3motion"} block. Change the coordinates to x: `-168` and y: `-87`.
+From the `Motion`{:class="block3motion"} menu, add a `go to x:() y:()`{:class="block3motion"} block. Change the coordinates to x: `-168` and y: `-87`:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -61,7 +64,7 @@ Show the **Main Panda** sprite at the beginning and hide it at the end.
 
 --- task ---
 
-Go to the `Looks`{:class="block3looks"} menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks
+Go to the `Looks`{:class="block3looks"} menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -78,7 +81,7 @@ Get the **Main Panda** sprite to move across the stage until it touches the edge
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} loop with a `Sensing`{:class="block3sensing"} condition that repeats `move (10) steps`{:class="block3motion"} until the sprite is `touching(edge)`{:class="block3sensing"}.
+Add a `repeat`{:class="block3control"} loop with a `Sensing`{:class="block3sensing"} condition that repeats `move (10) steps`{:class="block3motion"} until the sprite is `touching(edge)`{:class="block3sensing"}:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
