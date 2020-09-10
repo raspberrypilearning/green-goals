@@ -1,6 +1,6 @@
 ## Walk through the goals
 
-You will program the **Main Panda** sprite to walk through a different backdrop for each goal.
+In this step you will program the **Main Panda** sprite to walk from the left to the right-hand side of the stage changing to the next backdrop when it reaches the right-hand side of the stage. A message is broadcast to let all the sprites know when the backdrop changes.
 
 --- task ---
 
@@ -19,7 +19,7 @@ You will be programming the **Main Panda** sprite to walk through each of the fi
 --- task ---
 
 --- no-print ---
-Watch this short video, which shows what to do next.
+Watch this short video, which shows how to complete the steps below.
 
 ![screenshot](images/NOTNAMEDYET.gif)
 
@@ -31,11 +31,11 @@ You will be using the `Broadcast`{:class="block3events"} blocks which are messag
 
 Now follow each task given below.
 
-The **Main Panda** sprite will have two scripts. The first script will set up the animation sequence for the backdrops. The second script is for the **Main Panda** sprite to continue its animation through the five green goals.
+A group of blocks joined together is called a script. The **Main Panda** sprite will have two scripts.
 
 --- task ---
 
-Create the first script for **Main Panda**. In the `Events`{:class="block3events"} blocks menu, select the following blocks: `when green flag clicked`{:class="block3events"} and `broadcast message1`{:class="block3events"}. Click on the dropdown in `broadcast message1`{:class="block3events"} block and select new message then title it 'next'.
+The first script will set up the animation sequence. **Main Panda** will broadcast a message to the sprites. To create the first script, select the following blocks from the `Events`{:class="block3events"} blocks menu: `when green flag clicked`{:class="block3events"} and `broadcast message1`{:class="block3events"}. Click on the dropdown in `broadcast message1`{:class="block3events"} block and select new message then title it 'next':
 
 ```blocks3
 when green flag clicked
@@ -46,7 +46,7 @@ broadcast [next v]
 
 --- task ---
 
-Create the second script for **Main Panda**. In the `Events`{:class="block3events"} blocks menu, select the `when I receive next`{:class="block3events"} block:
+The second script controls the movement of the **Main Panda** sprite across the five different backdrops. To create the second script,go to the `Events`{:class="block3events"} blocks menu and select `when I receive next`{:class="block3events"} block:
 
 ```blocks3
 when I receive [next v]
@@ -90,10 +90,9 @@ go to x: (-168) y: (-87)
 +show
 +hide
 ```
-
 --- /task ---
 
-Get the **Main Panda** sprite to move across the stage until it touches the edge of the stage.
+Get the **Main Panda** sprite to move across the left tothe right-hand side of the stage until it touches the edge.
 
 --- task ---
 
@@ -160,6 +159,12 @@ hide
 broadcast [next v]
 next backdrop
 ```
+
+--- /task ---
+
+--- task ---
+
+Run your program to test it. You should see the backdrops show in turn. After the final backdrop, **Life on Land**, the program goes round to the beginning backdrop which is **Climate action**. This is becuase, once the program reaches the final backdrop, the next backdrop command makes it return to the beginning.
 
 --- /task ---
 
