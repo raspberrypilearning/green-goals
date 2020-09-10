@@ -14,7 +14,9 @@ We've named these goals Green Goals.
 ### What you will make
 
 --- no-print ---
-Click on the green flag to start the animation and watch **Main Panda** interact  with the five Green Goal pandas: **Climate, Energy, RRR, Water and Land.**
+Click on the green flag to start the animation and watch **Main Panda** interact with the five Green Goal pandas: **Climate, Energy, RRR, Water and Land.**
+
+The **Main Panda** sprite walks through a different backdrop for each goal. For each backdrop a different Green Goal panda sprite explains their goal with actions, sounds and words.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/423884556/?autostart=false" frameborder="0"></iframe>
