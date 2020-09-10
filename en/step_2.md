@@ -4,9 +4,9 @@ In this step you will program the **Main Panda** sprite to walk from the left to
 
 --- task ---
 
-**Online:** open the [starter project](http://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
+**Online:** open the [starter project](http://rpf.io/p/en/projectName-on){:target="\_blank"} in Scratch.
 
-**Offline:** open the project [starter file](http://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** open the project [starter file](http://rpf.io/p/en/projectName-get){:target="\_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
 The Scratch environment that you will open looks like this:
 
