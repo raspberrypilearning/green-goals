@@ -27,7 +27,7 @@ show
 
 --- /task ---
 
-Reduce the size of the **Climate Panda** sprite.
+Reduce the size of the **Climate Panda** sprite  so it fits within the scene.
 
 --- task ---
 
