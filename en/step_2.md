@@ -6,7 +6,7 @@ In this step you will program the **Main Panda** sprite to walk from the left to
 
 **Online:** open the [starter project](http://rpf.io/p/en/projectName-on){:target="\_blank"} in Scratch.
 
-**Offline:** open the project [starter file](http://rpf.io/p/en/projectName-get){:target="\_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** open the project [starter file](http://rpf.io/p/en/projectName-get){:target="\_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="\_blank"}.
 
 The Scratch environment that you will open looks like this:
 
@@ -27,7 +27,7 @@ Watch this short video, which shows how to complete the steps below.
 
 --- /task ---
 
-You will be using the `Broadcast`{:class="block3events"} blocks which are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize){:target="_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"} pathway.
+You will be using the `Broadcast`{:class="block3events"} blocks which are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize){:target="\_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"} pathway.
 
 A group of blocks joined together is called a script. The **Main Panda** sprite will have two scripts.
 
