@@ -47,7 +47,7 @@ In the starter code, you can see a `wait 5 seconds`{:class="block3control"}. It 
 
 --- task ---
 
-Get the **Climate Panda** sprite to wait 5 seconds before moving as well:
+Get the **Climate Panda** sprite to wait 5 seconds before moving:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
@@ -62,7 +62,7 @@ show
 
 --- task ---
 
-Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate Panda** sprite gets bigger and smaller:
+Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate Panda** sprite gets bigger and smaller repeatedly:
 
 ![image of the Climate Panda sprite](images/climatenpanda-sprite.png)
 
