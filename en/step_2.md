@@ -1,6 +1,6 @@
 ## Walk through the goals
 
-In this step you will program the **Main Panda** sprite to walk from the left to the right-hand side of the stage changing to the next backdrop when it reaches the right-hand side of the stage. A message is broadcast to let all the sprites know when the backdrop changes.
+In this step you will program the **Main Panda** sprite to walk from the left to the right-hand side of the stage, changing to the next backdrop when it reaches the right-hand side of the stage. A message is then broadcast to let all the sprites know when the backdrop changes.
 
 --- task ---
 
