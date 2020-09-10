@@ -162,6 +162,28 @@ next backdrop
 
 --- /task ---
 
+You will need to stop the music playing when the **Main Panda** goes to the next Green Goal.
+
+--- task ---
+
+Add one final block, `stop all sounds`{:class="block3sound"} to the script:
+
+```blocks3
+when I receive [next v]
+go to x: (-168) y: (-87)
+show
+say (backdrop [name v]) for (4) seconds
+wait (12) seconds
+repeat until <touching[edge v]>
+  move (10) steps
+end
+hide
+broadcast [next v]
+next backdrop
++ stop all sounds
+```
+--- /task ---
+
 --- task ---
 
 Run your program to test it. You should see the backdrops show in turn. After the final backdrop, **Life on Land**, the program goes round to the beginning backdrop which is **Climate action**. This is becuase, once the program reaches the final backdrop, the next backdrop command makes it return to the beginning.
