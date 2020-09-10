@@ -1,6 +1,6 @@
 ## Life on land
 
-Get the **Land Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html){:target="_blank"}, with a specfic action, sound and setting.
+Get the **Land Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html){:target="\_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 
@@ -63,7 +63,7 @@ Now the **Land Panda** sprite needs to jump up and down.
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
-Add in a `repeat`{:class="block3control"} block and within it the following: 
+Add in a `repeat`{:class="block3control"} block and within it the following:
 
 `change y by`{:class="block3motion"} block with a value of `10` (sprite goes up)
 `wait`{:class="block3control"} block (slow down action)

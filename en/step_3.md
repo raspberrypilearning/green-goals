@@ -1,6 +1,6 @@
 ## Climate action
 
-You are going to get the **Climate Panda** sprite to explain the United Nations' Sustainable Development Goal, [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}, with a specfic action, sound and setting.
+You are going to get the **Climate Panda** sprite to explain the United Nations' Sustainable Development Goal, [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="\_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 

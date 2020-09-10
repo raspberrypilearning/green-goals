@@ -1,6 +1,6 @@
 ## Life below Water
 
-Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="_blank"}, with a specfic action, sound and setting.
+Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="\_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 
@@ -10,7 +10,7 @@ You will see some code already provided for you. The code includes music and tex
 
 --- /task ---
 
-Get the **Water Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite. 
+Get the **Water Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
 
 --- task ---
 
@@ -90,7 +90,7 @@ repeat until <not <([backdrop # v] of [stage v])= (4)>>
 + if on edge, bounce
 end
 ```
- 
+
 --- /task ---
 
 Get the **Water Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.

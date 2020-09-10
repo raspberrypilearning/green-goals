@@ -1,6 +1,6 @@
 ## Affordable and clean energy
 
-Get the **Energy Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, with a specfic action, sound and setting.
+Get the **Energy Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="\_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 
