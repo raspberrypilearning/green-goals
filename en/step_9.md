@@ -5,3 +5,5 @@ You can share your completed Scratch project with your friends and family. To do
 [[[share-scratch]]]
 
 If you are in a club, why not demonstrate your project to friends and peers?
+
+Tell everyone about the United Nations’ Sustainable Development Goals so we can all help to protect our planet.

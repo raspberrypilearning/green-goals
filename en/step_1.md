@@ -1,21 +1,25 @@
 ## Introduction
 
-Learn about the United Nations’ Sustainable Development Goals which focus on the environment, by coding the United Nations’ pandas. The five environment-focused goals are:
-+ [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html)
-+ [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html)
-+ [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html)
-+ [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html)
-+ [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html)
+In this series of projects you will be using technology to help to protect the environment. As well as developing your Scratch programming skills, you will discover how computing can be used to collect data on the environment, explore the causes of environmental damage, and think the ways in which humans have an influence on the environment.
+
+In this project you will code the United Nations’ pandas to learn about the United Nations’ Sustainable Development Goals which focus on the environment. The United Nations is a group of countries that work together to make the world a better place. Their five environment-focused goals are:
++ [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
++ [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="_blank"}
++ [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}
++ [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="_blank"}
++ [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html){:target="_blank"}
 
 We've named these goals Green Goals.
 
 ### What you will make
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
+Click on the green flag to start the animation and watch **Main Panda** interact with the five Green Goal pandas: **Climate, Energy, RRR, Water and Land.**
+
+The **Main Panda** sprite walks through a different backdrop for each goal. For each backdrop a different Green Goal panda sprite explains their goal with actions, sounds and words.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/423884556/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
 
@@ -59,6 +63,6 @@ title: Additional information for educators
 
 You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/green-goals/print){:target="_blank"}.
 
 --- /collapse ---

@@ -1,16 +1,22 @@
 ## Climate action
 
-Get the **Climate Panda** sprite to explain the United Nations' Sustainable Development Goal, [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html), with a specfic action, sound and setting.
-
-Here is the code you have already. There is some music and some text explaining the Climate action goal as well as a script that gets the **Climate Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
-
-![climate action starter code](images/climateaction_startercode.png)
-
-Get the **Climate Panda** sprite to respond to the **Main Panda** sprite's `broadcast`{:class="block3events"} which you set up in the previous step (Step 2).
+You are going to get the **Climate Panda** sprite to explain the United Nations' Sustainable Development Goal, [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 
-Start a new script with the `when backdrop switches to Climate action`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Climate Panda** sprite on the stage.
+Go to the **Code** tab for the **Climate Panda** sprite.
+
+You will see some code already provided for you. The code includes music and text explaining the Climate action goal as well as a script that gets the **Climate Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+
+![climate action starter code](images/climateaction_startercode.png)
+
+--- /task ---
+
+Get the **Climate Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite. (You set this up in the previous step).
+
+--- task ---
+
+Add a `when backdrop switches to Climate action`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Climate Panda** sprite on the stage:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
@@ -21,9 +27,11 @@ show
 
 --- /task ---
 
+Reduce the size of the **Climate Panda** sprite.
+
 --- task ---
 
-Set the size of the **Climate Panda** sprite.
+Add a `set size to`{:class="block3looks"} block to `50` percent:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
@@ -35,11 +43,11 @@ show
 
 --- /task ---
 
-In the starter code, you can see a `wait 5 seconds`{:class="block3control"} and that means that the **Climate Panda** sprite waits for 5 seconds while the **Main Panda** introduces them.
+In the starter code, you can see a `wait 5 seconds`{:class="block3control"}. It means that the **Climate Panda** sprite waits for 5 seconds while the **Main Panda** introduces them.
 
 --- task ---
 
-Get the **Climate Panda** sprite to wait 5 seconds before moving as well.
+Get the **Climate Panda** sprite to wait 5 seconds before moving as well:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
@@ -49,11 +57,12 @@ set size to (50) %
 show
 + wait (5) seconds
 ```
+
 --- /task ---
 
 --- task ---
 
-Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate Panda** sprite gets bigger and smaller.
+Add blocks so that after `waiting 5 seconds`{:class="block3control"}, the **Climate Panda** sprite gets bigger and smaller:
 
 ![image of the Climate Panda sprite](images/climatenpanda-sprite.png)
 
@@ -84,6 +93,12 @@ Start a new script with the `when I recieve next`{:class="block3events"} and `hi
 when I receive [next v]
 hide
 ```
+
+--- /task ---
+
+--- task ---
+
+Now test your program with the new sprite and backdrop.
 
 --- /task ---
 
