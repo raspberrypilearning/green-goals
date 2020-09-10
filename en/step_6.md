@@ -59,7 +59,7 @@ show
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} block so that the **Water Panda** sprite does `not`{:class="block3operators"} move unless the `backdrop of stage`{:class="block3sensing"}`=`{:class="block3operators"} `4`. The value 4 stands for the 4th backdrop - Life below Water:
+Add a `repeat until`{:class="block3control"} block so that the **Water Panda** sprite does `not`{:class="block3operators"} move unless the `backdrop of stage`{:class="block3sensing"} `=`{:class="block3operators"} `4`. The value 4 stands for the 4th backdrop - Life below Water:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
