@@ -41,7 +41,7 @@ show
 
 --- /task ---
 
-Before it moves, get the **Land Panda** sprite to wait to be introduced by the **Main Panda**.
+Before **Land Panda** sprite moves, get it to wait to be introduced by the **Main Panda**.
 
 --- task ---
 
