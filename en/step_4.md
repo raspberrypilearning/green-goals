@@ -1,6 +1,6 @@
 ## Affordable and clean energy
 
-Get the **Climate Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, with a specfic action, sound and setting.
+Get the **Energy Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 
@@ -14,7 +14,7 @@ Get the **Energy Panda** sprite to respond to the `broadcast`{:class="block3even
 
 --- task ---
 
-Add a `when backdrop switches to Affordable and clean energy`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Energy Panda** sprite on the stage:
+Add a `when backdrop switches to Affordable and clean energy`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Energy Panda** sprite on the stage when it receives the broadcast message:
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -27,7 +27,7 @@ show
 
 --- task ---
 
-Add a `point in direction block`{:class="block3motion"} so that the **Energy Panda** sprite faces right it appears to interact with the **Main Panda** sprite:
+Add a `point in direction block`{:class="block3motion"} so that the **Energy Panda** sprite faces right when it appears to interact with the **Main Panda** sprite:
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -55,11 +55,11 @@ show
 ```
 --- /task ---
 
-We now want **Energy Panda** sprite to respond by moving, this time from side to side.
+We now want the **Energy Panda** sprite to respond by moving, this time from side to side.
 
 --- task ---
 
-Use the following blocks to do this: `turn right`{:class="block3motion"} `15` degrees, `wait 0.2 seconds`{:class="block3control"}, `turn left`{:class="block3motion"} `15` degrees and `wait 0.2 seconds`{:class="block3control"}:
+Use the following blocks to do this: `turn right`{:class="block3motion"} `15` degrees, `wait 0.2 seconds`{:class="block3control"}, `turn left`{:class="block3motion"} `15` degrees and `wait 0.2 seconds`{:class="block3control"} and a `repeat`{:class="block3control"} block to repeat this action `18` times.
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
