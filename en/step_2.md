@@ -29,8 +29,6 @@ Watch this short video, which shows how to complete the steps below.
 
 You will be using the `Broadcast`{:class="block3events"} blocks which are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize){:target="_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="_blank"} pathway.
 
-Now follow each task given below.
-
 A group of blocks joined together is called a script. The **Main Panda** sprite will have two scripts.
 
 --- task ---
@@ -55,7 +53,7 @@ when I receive [next v]
 
 --- task ---
 
-Arrange the blocks so that you have two scripts. 
+Arrange the blocks so that you have two scripts.
 
 ![screenshot of the two scripts side by side](images/broadcast-scripts.png)
 
