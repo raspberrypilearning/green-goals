@@ -7,4 +7,4 @@ In this project, you have:
 
 If you have been following the [Environment](https://projects.raspberrypi.org/en/pathways/environment) projects, then try out the project [Plant trees](https://projects.raspberrypi.org/en/projects/plant-trees).
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know! a mistake?
+Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
