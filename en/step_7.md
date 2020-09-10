@@ -25,7 +25,7 @@ show
 
 --- /task ---
 
-Change the size of the **Land Panda** sprite.
+Change the size of the **Land Panda** sprite so it fits into the scene.
 
 --- task ---
 
