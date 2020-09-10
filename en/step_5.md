@@ -46,7 +46,7 @@ To get the **RRR Panda** sprite to move, duplicate the code which you have previ
 
 Go to the **Code** tab for the **Energy Panda** sprite and find the repeat loop you used to get the sprite to move. It should look like this:
 
-![image of the Energy Panda sprite](images/energypanda-sprite.gif)
+![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
 
 ```blocks3
 when backdrop switches to (Affordable and clean energy v)
@@ -73,7 +73,8 @@ Highlight the repeat loop by clicking on it. Make sure only the 5 blocks you nee
 
 Drag these blocks into the image of the **RRR Panda** sprite and make sure you put them in the script you started earlier in this step:
 
-![image of the Reuse Panda sprite](images/reusepanda-sprite.png)GIF HERE?
+![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
+GIF HERE?
 
 ```blocks3
 when backdrop switches to [Responsible consumption and production v]
@@ -95,7 +96,7 @@ Get the **RRR Panda** sprite to respond to the next `broadcast`{:class="block3ev
 
 Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks:
 
-![image of the Reuse Panda sprite](images/reusepanda-sprite.png)
+![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
 
 ```blocks3
 when I receive [next v]
