@@ -16,17 +16,6 @@ The Scratch environment that you will open looks like this:
 
 In this step you will be programming the **Main Panda** sprite to walk through each of the five Green Goal backdrops.
 
---- task ---
-
---- no-print ---
-Watch this short video, which shows how to complete the steps below.
-
-![screenshot](images/NOTNAMEDYET.gif)
-
---- /no-print ---
-
---- /task ---
-
 You will be using the `Broadcast`{:class="block3events"} blocks which are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize){:target="\_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="\_blank"} pathway.
 
 A group of blocks joined together is called a script. The **Main Panda** sprite will have two scripts.
