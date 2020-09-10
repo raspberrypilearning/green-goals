@@ -14,7 +14,7 @@ Get the **RRR Panda** sprite to respond to the `broadcast`{:class="block3events"
 
 --- task ---
 
-Add a `when backdrop switches to Responsible comsumption and production`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **RRR Panda** sprite on the stage:
+Add a `when backdrop switches to Responsible comsumption and production`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **RRR Panda** sprite on the stage when it receives the broadcast message:
 
 ![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
 
@@ -46,7 +46,7 @@ To get the **RRR Panda** sprite to move, duplicate the code which you have previ
 
 Go to the **Code** tab for the **Energy Panda** sprite and find the repeat loop you used to get the sprite to move. It should look like this:
 
-![image of the Energy Panda sprite](images/energypanda-sprite.png)
+![image of the Energy Panda sprite](images/energypanda-sprite.gif)
 
 ```blocks3
 when backdrop switches to (Affordable and clean energy v)
