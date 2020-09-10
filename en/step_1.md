@@ -2,7 +2,7 @@
 
 In this series of projects you will be using technology to help protect the environment. As well as developing your Scratch programming skills, you will discover how computing can be used to collect data on the environment, explore the causes of environmental damage, and think of the ways in which humans have an influence on the environment.
 
-In this project you will code the United Nations’ pandas to learn about the United Nations’ Sustainable Development Goals which focus on the environment. The United Nations is a group of countries that work together to make the world a better place. Their five environment-focused goals are:
+The United Nations is a group of countries that work together to make the world a better place. In this project you will code the United Nations’ pandas to learn about the United Nations’ Sustainable Development Goals which focus on the environment. Their five environment-focused goals are:
 + [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
 + [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="_blank"}
 + [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}
