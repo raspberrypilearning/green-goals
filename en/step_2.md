@@ -33,7 +33,7 @@ A group of blocks joined together is called a script. The **Main Panda** sprite 
 
 --- task ---
 
-The first script will set up the animation sequence. **Main Panda** will broadcast a message to the sprites. To create the first script, select the following blocks from the `Events`{:class="block3events"} blocks menu: `when green flag clicked`{:class="block3events"} and `broadcast message1`{:class="block3events"}. Click on the dropdown in `broadcast message1`{:class="block3events"} block and select new message then title it 'next':
+The first script will set up the animation sequence. The **Main Panda** will broadcast a message to the sprites. To create the first script, select the following blocks from the `Events`{:class="block3events"} blocks menu: `when green flag clicked`{:class="block3events"} and `broadcast message1`{:class="block3events"}. Click on the dropdown in `broadcast message1`{:class="block3events"} block and select new message then title it 'next':
 
 ```blocks3
 when green flag clicked
@@ -44,7 +44,7 @@ broadcast [next v]
 
 --- task ---
 
-The second script controls the movement of the **Main Panda** sprite across the five different backdrops. To create the second script,go to the `Events`{:class="block3events"} blocks menu and select `when I receive next`{:class="block3events"} block:
+The second script controls the movement of the **Main Panda** sprite across the five different backdrops. To create the second script, go to the `Events`{:class="block3events"} blocks menu and select `when I receive next`{:class="block3events"} block:
 
 ```blocks3
 when I receive [next v]
@@ -59,11 +59,11 @@ Arrange the blocks so that you have two scripts.
 
 --- /task ---
 
-Get the **Main Panda** sprite to enter from the bottom left-hand corner.
+Now you need to get the **Main Panda** sprite to enter from the bottom left-hand corner.
 
 --- task ---
 
-From the `Motion`{:class="block3motion"} menu, add a `go to x:() y:()`{:class="block3motion"} block. Change the coordinates to x: `-168` and y: `-87`:
+From the `Motion`{:class="block3motion"} block menu, add a `go to x:() y:()`{:class="block3motion"} block. Change the coordinates to x: `-168` and y: `-87`:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -74,11 +74,11 @@ when I receive [next v]
 
 --- /task ---
 
-Show the **Main Panda** sprite at the beginning and hide it at the end.
+The **Main Panda** sprite needs to show at the beginning and hide at the end.
 
 --- task ---
 
-Go to the `Looks`{:class="block3looks"} menu. Add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks:
+To do this, go to the `Looks`{:class="block3looks"} menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks. (In the next task you will put some more code between the show and hide):
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -116,7 +116,7 @@ Run your program to test it.
 
 --- /task ---
 
-You now need to program the next backdrop to appear when the **Main Panda** reaches the edge of the stage.
+You now need to program the next backdrop to appear when the **Main Panda** reaches the edge of the stage on the right-hand side.
 
 --- task ---
 Now add the following two blocks to the end of the script: `broadcast next`{:class="block3events"} and `next backdrop`{:class="block3looks"} blocks:
@@ -160,7 +160,7 @@ next backdrop
 
 --- /task ---
 
-You will need to stop the music playing when the **Main Panda** goes to the next Green Goal.
+You will need to stop the music playing when the **Main Panda** goes to the next Green Goal backdrop.
 
 --- task ---
 
