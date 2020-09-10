@@ -14,7 +14,7 @@ The Scratch environment that you will open looks like this:
 
 --- /task ---
 
-You will be programming the **Main Panda** sprite to walk through each of the five Green Goal backdrops.
+In this step you will be programming the **Main Panda** sprite to walk through each of the five Green Goal backdrops.
 
 --- task ---
 
