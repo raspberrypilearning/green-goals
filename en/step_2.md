@@ -166,6 +166,8 @@ You will need to stop the music playing when the **Main Panda** goes to the next
 
 Add one final block, `stop all sounds`{:class="block3sound"} to the script:
 
+![image of the main Panda sprite](images/mainpanda-sprite.png)
+
 ```blocks3
 when I receive [next v]
 go to x: (-168) y: (-87)
