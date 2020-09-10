@@ -1,6 +1,6 @@
 ## Walk through the goals
 
-The **Main Panda** sprite will introduce the five Green Goals in turn by walking through a different backdrop for each goal. In the related backdrop, there will be a Green Goal panda sprite explaining the goal with actions, sounds and words.
+You will program the **Main Panda** sprite to walk through a different backdrop for each goal.
 
 --- task ---
 
