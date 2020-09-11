@@ -18,12 +18,14 @@ Add a  `when backdrop switches to Life Below Water`{:class="block3events"} block
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
+
+
+--- /collapse ---
+
 ```blocks3
 when backdrop switches to [Life Below Water v]
 show
 ```
-
---- /collapse ---
 
 Get the **Water Panda** sprite to point straight up so it only moves up and down the stage, and only rotates left and right.
 
@@ -50,6 +52,10 @@ Add a `wait`{:class="block3control"} block for `5` seconds:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
+
+
+--- /collapse ---
+
 ```blocks3
 when backdrop switches to [Life Below Water v]
 point in direction (0)
@@ -57,8 +63,6 @@ set rotation style [left-right v]
 show
 + wait (5) seconds
 ```
-
---- /collapse ---
 
 Get the **Water Panda** sprite to only move when its backdrop shows.
 
@@ -106,12 +110,14 @@ Start a new script with the `when I receive next`{:class="block3events"} and `hi
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
+
+
+--- /collapse ---
+
 ```blocks3
 when I receive [next v]
 hide
 ```
-
---- /collapse ---
 
 --- task ---
 
