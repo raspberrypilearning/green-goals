@@ -1,6 +1,6 @@
 ## Life Below Water
 
-Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="\_blank"}, with a specfic action, sound and setting.
+Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 
