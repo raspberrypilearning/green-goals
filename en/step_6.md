@@ -6,11 +6,13 @@ Get the **Water Panda** sprite to respond to the United Nations' Sustainable Dev
 
 Go to the **Code** tab for the **Water Panda**.
 
-You will see the code already provided for you. The code includes music and text explaining the Life Below Water goal as well as a script that gets the **Water Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+You will see the code already provided for you, like in the previous steps.
 
 --- /task ---
 
 Get the **Water Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
+
+--- collapse ---
 
 --- task ---
 
@@ -25,9 +27,13 @@ show
 
 --- /task ---
 
+--- /collapse ---
+
+Get the **Water Panda** sprite to point straight up so it only moves up and down the stage, and only rotates left and right.
+
 --- task ---
 
-Get the **Water Panda** sprite to point straight up so it only moves up and down the stage, and only rotates left and right:
+Add a `point in direction (90)`{:class="block3motion"} block and change the `90` to `0` so that it can move up and down instead of right and left. Add a `set rotation style [left-right]`{:class="block3motion"} block so that tje sprite rotates left and right instead of flipping upside down.
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
@@ -41,6 +47,8 @@ show
 --- /task ---
 
 As with the previous Green Goals sprites, **Water Panda** sprite needs to wait to be introduced by the **Main Panda** sprite.
+
+--- collapse ---
 
 --- task ---
 
@@ -56,6 +64,10 @@ show
 + wait (5) seconds
 ```
 --- /task ---
+
+--- /collapse ---
+
+Get the **Water Panda** sprite to only move when its backdrop shows.
 
 --- task ---
 
@@ -93,7 +105,9 @@ end
 
 --- /task ---
 
-Get the **Water Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
+As in previous steps, get the **Water Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
+
+--- collapse ---
 
 --- task ---
 
@@ -107,6 +121,8 @@ hide
 ```
 
 --- /task ---
+
+--- /collapse ---
 
 --- task ---
 
