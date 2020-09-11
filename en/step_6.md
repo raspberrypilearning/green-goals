@@ -14,8 +14,6 @@ Get the **Water Panda** sprite to respond to the `broadcast`{:class="block3event
 
 --- collapse ---
 
---- task ---
-
 Add a  `when backdrop switches to Life Below Water`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Water Panda** sprite on the stage:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
@@ -24,8 +22,6 @@ Add a  `when backdrop switches to Life Below Water`{:class="block3events"} block
 when backdrop switches to [Life Below Water v]
 show
 ```
-
---- /task ---
 
 --- /collapse ---
 
@@ -50,8 +46,6 @@ As with the previous Green Goals sprites, **Water Panda** sprite needs to wait t
 
 --- collapse ---
 
---- task ---
-
 Add a `wait`{:class="block3control"} block for `5` seconds:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
@@ -63,7 +57,6 @@ set rotation style [left-right v]
 show
 + wait (5) seconds
 ```
---- /task ---
 
 --- /collapse ---
 
@@ -109,8 +102,6 @@ As in previous steps, get the **Water Panda** sprite to respond to the next `bro
 
 --- collapse ---
 
---- task ---
-
 Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
@@ -119,8 +110,6 @@ Start a new script with the `when I receive next`{:class="block3events"} and `hi
 when I receive [next v]
 hide
 ```
-
---- /task ---
 
 --- /collapse ---
 
