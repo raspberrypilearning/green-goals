@@ -29,7 +29,7 @@ Get the **Water Panda** sprite to point straight up so it only moves up and down
 
 --- task ---
 
-Add a `point in direction 90`{:class="block3motion"} block and change the `90` to `0` so that it can move up and down instead of right and left. Add a `set rotation style left-right`{:class="block3motion"} block so that tje sprite rotates left and right instead of flipping upside down.
+Add a `point in direction 90`{:class="block3motion"} block and change the `90` to `0` so that it can move up and down instead of right and left. Add a `set rotation style left-right`{:class="block3motion"} block so that tje sprite rotates left and right instead of flipping upside down:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
@@ -64,7 +64,7 @@ Get the **Water Panda** sprite to only move when its backdrop shows.
 
 --- task ---
 
-Add a `repeat until`{:class="block3control"} block so that the **Water Panda** sprite does `not`{:class="block3operators"} move unless the `backdrop of stage`{:class="block3sensing"} `=`{:class="block3operators"} `4`. The value 4 stands for the 4th backdrop - Life below Water:
+Add a `repeat until`{:class="block3control"} block so that the **Water Panda** sprite does `not`{:class="block3operators"} move unless the `backdrop of stage`{:class="block3sensing"} `=`{:class="block3operators"} `4`. The value 4 stands for the 4th backdrop - Life Below Water:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
