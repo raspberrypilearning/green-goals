@@ -82,7 +82,6 @@ Highlight the repeat loop by clicking on it. Make sure only the 5 blocks you nee
 Drag these blocks into the image of the **RRR Panda** sprite and make sure you put them in the script you started earlier in this step:
 
 ![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
-GIF HERE?
 
 ```blocks3
 when backdrop switches to [Responsible consumption and production v]
