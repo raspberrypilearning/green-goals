@@ -41,7 +41,7 @@ title: What you will need
 
 ### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
++ Download the project [starter file](http://rpf.io/p/en/green-goals-go){:target="_blank"} if working offline
 
 --- /collapse ---
 
@@ -61,7 +61,7 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+You can download the completed project [here](http://rpf.io/p/en/green-goals-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/green-goals/print){:target="_blank"}.
 
