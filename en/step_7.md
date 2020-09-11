@@ -12,7 +12,11 @@ You will see some code already provided for you. The code includes music and tex
 
 Get the **Land Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
 
---- task ---
+--- collapse ---
+
+---
+title: Click here for a reminder
+---
 
 Add a  `when backdrop switches to Life on Land`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Land Panda** sprite on the stage:
 
@@ -23,7 +27,7 @@ when backdrop switches to [Life on Land v]
 show
 ```
 
---- /task ---
+--- /collapse ---
 
 Change the size of the **Land Panda** sprite so it fits into the scene.
 
@@ -41,9 +45,13 @@ show
 
 --- /task ---
 
-Before **Land Panda** sprite moves, get it to wait to be introduced by the **Main Panda**.
+As with the previous Green Goals sprites, before **Land Panda** sprite moves, get it to wait to be introduced by the **Main Panda**.
 
---- task ---
+--- collapse ---
+
+---
+title: Click here for a reminder
+---
 
 Add a `wait`{:class="block3looks"} block and change its value to `5` seconds:
 
@@ -55,7 +63,7 @@ set size to (50)%
 show
 + wait (5) seconds
 ```
---- /task ---
+--- /collapse ---
 
 Now the **Land Panda** sprite needs to jump up and down.
 
@@ -85,9 +93,13 @@ end
 
 --- /task ---
 
-Get the **Land Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
+As in previous steps, get the **Land Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
 
---- task ---
+--- collapse ---
+
+---
+title: Click here for a reminder
+---
 
 Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks:
 
@@ -98,7 +110,7 @@ when I receive [next v]
 hide
 ```
 
---- /task ---
+--- /collapse ---
 
 --- task ---
 

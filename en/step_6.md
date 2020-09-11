@@ -15,7 +15,7 @@ Get the **Water Panda** sprite to respond to the `broadcast`{:class="block3event
 --- collapse ---
 
 ---
-title: g
+title: Click here for a reminder
 ---
 
 Add a  `when backdrop switches to Life Below Water`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Water Panda** sprite on the stage:
@@ -51,7 +51,7 @@ As with the previous Green Goals sprites, **Water Panda** sprite needs to wait t
 --- collapse ---
 
 ---
-title: g
+title: Click here for a reminder
 ---
 
 Add a `wait`{:class="block3control"} block for `5` seconds:
@@ -111,7 +111,7 @@ As in previous steps, get the **Water Panda** sprite to respond to the next `bro
 --- collapse ---
 
 ---
-title: g
+title: Click here for a reminder
 ---
 
 Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks:
