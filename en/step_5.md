@@ -42,6 +42,14 @@ show
 
 To get the **RRR Panda** sprite to move, duplicate the code which you have previous created in the **Energy Panda** sprite.
 
+--- no-print ---
+
+Watch this short video, which shows what to do next, then follow the instructions below.
+
+![dragging code gif](images/draggingcode.gif)
+
+--- /no-print ---
+
 --- task ---
 
 Go to the **Code** tab for the **Energy Panda** sprite and find the repeat loop you used to get the sprite to move. It should look like this:
