@@ -29,7 +29,7 @@ Get the **Water Panda** sprite to point straight up so it only moves up and down
 
 --- task ---
 
-Add a `point in direction (90)`{:class="block3motion"} block and change the `90` to `0` so that it can move up and down instead of right and left. Add a `set rotation style [left-right]`{:class="block3motion"} block so that tje sprite rotates left and right instead of flipping upside down.
+Add a `point in direction 90`{:class="block3motion"} block and change the `90` to `0` so that it can move up and down instead of right and left. Add a `set rotation style left-right`{:class="block3motion"} block so that tje sprite rotates left and right instead of flipping upside down.
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
