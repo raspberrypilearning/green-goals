@@ -10,7 +10,7 @@ In this step you will program the **Main Panda** sprite to walk from the left to
 
 The Scratch environment that you will open looks like this:
 
-![starter project](images/starter_project.png)
+![starter project](images/starterproject.png)
 
 --- /task ---
 
