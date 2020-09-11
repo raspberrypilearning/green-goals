@@ -1,6 +1,6 @@
 ## Life below Water
 
-Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="_blank"}, with a specfic action, sound and setting.
+Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="\_blank"}, with a specfic action, sound and setting.
 
 --- task ---
 
@@ -34,7 +34,7 @@ Add a `point in direction 90`{:class="block3motion"} block and change the `90` t
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
 ```blocks3
-when backdrop switches to (Life Below Water v)
+when backdrop switches to [Life Below Water v]
 + point in direction (0)
 + set rotation style [left-right v]
 show
@@ -51,7 +51,7 @@ Add a `wait`{:class="block3control"} block for `5` seconds:
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
 ```blocks3
-when backdrop switches to (Life Below Water v)
+when backdrop switches to [Life Below Water v]
 point in direction (0)
 set rotation style [left-right v]
 show
@@ -69,7 +69,7 @@ Add a `repeat until`{:class="block3control"} block so that the **Water Panda** s
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
 ```blocks3
-when backdrop switches to (Life Below Water v)
+when backdrop switches to [Life Below Water v]
 point in direction (0)
 set rotation style [left-right v]
 show
@@ -85,7 +85,7 @@ You now need to make the  **Water Panda** sprite swim up to the top of the stage
 To do this add two `Motion`{:class="block3motion"} blocks: `move 2 steps`{:class="block3motion"} and `if on edge, bounce`{:class="block3motion"}:
 
 ```blocks3
-when backdrop switches to (Life Below Water v)
+when backdrop switches to [Life Below Water v]
 point in direction (0)
 set rotation style [left-right v]
 show
