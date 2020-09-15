@@ -38,10 +38,6 @@ The second script controls the movement of the **Main Panda** sprite across the 
 ```blocks3
 when I receive [next v]
 ```
---- /task ---
-
---- task ---
-
 Arrange the blocks so that you have two scripts.
 
 ![screenshot of the two scripts side by side](images/broadcast-scripts.png)
