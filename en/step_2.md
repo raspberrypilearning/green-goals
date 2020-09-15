@@ -1,12 +1,12 @@
 ## Walk through the goals
 
-In this step you will program the **Main Panda** sprite to walk from the left to the right-hand side of the stage, changing to the next backdrop when it reaches the right-hand side of the stage. A message is then broadcast to let all the sprites know when the backdrop changes.
+In this step, you will program the **Main Panda** sprite to walk from the left-hand side of the Stage to the right-hand side, changing to the next backdrop when it reaches the right-hand side of the stage. A message is then broadcast to let all the sprites know when the backdrop changes.
 
 --- task ---
 
 **Online:** open the [starter project](http://rpf.io/green-goals-on){:target="\_blank"} in Scratch.
 
-**Offline:** open the project [starter file](http://rpf.io/p/en/green-goals-get){:target="\_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="\_blank"}.
+**Offline:** open the [project starter file](http://rpf.io/p/en/green-goals-get){:target="\_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="\_blank"}.
 
 The Scratch environment that you will open looks like this:
 
@@ -14,15 +14,15 @@ The Scratch environment that you will open looks like this:
 
 --- /task ---
 
-In this step you will be programming the **Main Panda** sprite to walk through each of the five Green Goal backdrops.
+In this step, you will program the **Main Panda** sprite to walk through each of the five Green Goal backdrops.
 
-You will be using the `Broadcast`{:class="block3events"} blocks which are messages that are sent by a sprite for some or all other sprites to receive. You'll be familiar with `Broadcasts`{:class="block3events"} if you completed the [Focus on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize){:target="\_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="\_blank"} pathway.
+You will use the `broadcast`{:class="block3events"} blocks, which are messages that are sent by a sprite for some or all other sprites to receive. If you have completed the [Focus on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize){:target="\_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="\_blank"} pathway, you will be familiar with `broadcast`{:class="block3events"} blocks.
 
-A group of blocks joined together is called a script. The **Main Panda** sprite will have two scripts.
+A group of blocks joined together is called a 'script'. The **Main Panda** sprite will have two scripts.
 
 --- task ---
 
-The first script will set up the animation sequence. The **Main Panda** will broadcast a message to the sprites. To create the first script, select the following blocks from the `Events`{:class="block3events"} blocks menu: `when green flag clicked`{:class="block3events"} and `broadcast message1`{:class="block3events"}. Click on the dropdown in `broadcast message1`{:class="block3events"} block and select new message then title it 'next':
+The first script will set up the animation sequence. The **Main Panda** sprite will broadcast a message to the sprites. To create the first script, select the following blocks from the `Events`{:class="block3events"} blocks menu: `when green flag clicked`{:class="block3events"} and `broadcast message1`{:class="block3events"}. Click on the drop-down menu in the `broadcast message1`{:class="block3events"} block and select **New message**, then give it the title `next`:
 
 ```blocks3
 when green flag clicked
@@ -33,7 +33,7 @@ broadcast [next v]
 
 --- task ---
 
-The second script controls the movement of the **Main Panda** sprite across the five different backdrops. To create the second script, go to the `Events`{:class="block3events"} blocks menu and select `when I receive next`{:class="block3events"} block:
+The second script will control the movement of the **Main Panda** sprite across the five different backdrops. To create the second script, go to the `Events`{:class="block3events"} blocks menu and select the `when I receive next`{:class="block3events"} block:
 
 ```blocks3
 when I receive [next v]
@@ -48,7 +48,7 @@ Now you need to get the **Main Panda** sprite to enter from the bottom left-hand
 
 --- task ---
 
-From the `Motion`{:class="block3motion"} block menu, add a `go to x:() y:()`{:class="block3motion"} block. Change the coordinates to x: `-168` and y: `-87`:
+From the `Motion`{:class="block3motion"} blocks menu, add a `go to x: y:`{:class="block3motion"} block. Change the coordinates to `x:`{:class="block3motion"} `-168` and `y:`{:class="block3motion"} `-87`:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -63,7 +63,7 @@ The **Main Panda** sprite needs to show at the beginning and hide at the end.
 
 --- task ---
 
-To do this, go to the `Looks`{:class="block3looks"} menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks. (In the next task you will put some more code between the show and hide):
+To do this, go to the `Looks`{:class="block3looks"} blocks menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks. In the next task, you will put some more code between the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -75,7 +75,7 @@ go to x: (-168) y: (-87)
 ```
 --- /task ---
 
-Get the **Main Panda** sprite to move across the left tothe right-hand side of the stage until it touches the edge.
+Get the **Main Panda** sprite to move across the left to the right-hand side of the Stage until it touches the edge.
 
 --- task ---
 
@@ -101,10 +101,10 @@ Run your program to test it.
 
 --- /task ---
 
-You now need to program the next backdrop to appear when the **Main Panda** reaches the edge of the stage on the right-hand side.
+You now need to program the next backdrop to appear when the **Main Panda** sprite reaches the edge of the Stage on the right-hand side.
 
 --- task ---
-Now add the following two blocks to the end of the script: `broadcast next`{:class="block3events"} and `next backdrop`{:class="block3looks"} blocks:
+Add the following two blocks to the end of the script: `broadcast next`{:class="block3events"} and `next backdrop`{:class="block3looks"}:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -122,10 +122,10 @@ hide
 
 --- /task ---
 
-Now add the finishing touches. Get the **Main Panda** sprite to introduce the panda for each Green Goal by announcing each Green Goal's **Backdrop** title. And add some wait time so that the Green Goal pandas can explain their goal.
+Now, add the finishing touches. Get the **Main Panda** sprite to introduce the panda for each Green Goal by announcing each Green Goal's **Backdrop** title. And add some wait time so that the Green Goal pandas can explain their goal.
 
 --- task ---
-Add a `say backdrop name for 2 seconds`{:class="block3looks"} and change the value to `4`. Also, add a `wait`{:class="block3control"} block:
+Add a `say backdrop name for 2 seconds`{:class="block3looks"} block and change the value to `4`. Also, add a `wait`{:class="block3control"} block:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -145,11 +145,11 @@ next backdrop
 
 --- /task ---
 
-You will need to stop the music playing when the **Main Panda** goes to the next Green Goal backdrop.
+Finally, you need to stop the music playing when the **Main Panda** goes to the next backdrop.
 
 --- task ---
 
-Add one final block, `stop all sounds`{:class="block3sound"} to the script:
+Add one final block, `stop all sounds`{:class="block3sound"}, to the script:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -171,7 +171,7 @@ next backdrop
 
 --- task ---
 
-Run your program to test it. You should see the backdrops show in turn. After the final backdrop, **Life on Land**, the program goes round to the beginning backdrop which is **Climate action**. This is becuase, once the program reaches the final backdrop, the next backdrop command makes it return to the beginning.
+Run your program to test it. You should see the backdrops show in turn. After the final backdrop, **Life on Land**, the program goes round to the beginning backdrop, which is **Climate Action**. This is because once the program reaches the final backdrop, the next backdrop command makes it return to the beginning.
 
 --- /task ---
 
