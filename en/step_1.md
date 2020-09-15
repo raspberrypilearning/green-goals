@@ -49,7 +49,7 @@ title: What you will learn
 ---
 
 + Use `Broadcast`{:class="block3events"} to control an animation sequence
-+ Use a combination of `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Operators`{:class="block3operators"} to create sprite action with accompanying `Sound`{:class="block3sound"}
++ Use `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Operators`{:class="block3operators"} to create sprite action with accompanying `Sound`{:class="block3sound"}
 + Learn about the United Nations' Sustainable Development Goals by creating an animation about them
 
 --- /collapse ---
