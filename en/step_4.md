@@ -1,12 +1,12 @@
 ## Affordable and clean energy
 
-Get the **Energy Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Affordable and clean energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="\_blank"}, with a specfic action, sound and setting.
+Get the **Energy Panda** sprite to respond to the United Nations Sustainable Development Goal, [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="\_blank"}, with a specific action, sound, and setting.
 
 --- task ---
 
 Go to the **Code** tab for the **Energy Panda** sprite.
 
-You will see some code already provided for you. The code includes music and text explaining the Affordable and clean energy goal as well as a script that gets the **Energy Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+You will see some code already provided for you. The code includes music and text that explains the 'Affordable and Clean Energy' goal, as well as a script that gets the **Energy Panda** sprite to `hide`{:class="block3looks"} `when green flag clicked`{:class="block3events"}.
 
 --- /task ---
 
@@ -14,7 +14,7 @@ Get the **Energy Panda** sprite to respond to the `broadcast`{:class="block3even
 
 --- task ---
 
-Add a `when backdrop switches to Affordable and clean energy`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Energy Panda** sprite on the stage when it receives the broadcast message:
+Add a `when backdrop switches to Affordable and clean energy`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Energy Panda** sprite on the Stage when it receives the broadcast message:
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -27,7 +27,7 @@ show
 
 --- task ---
 
-Add a `point in direction block`{:class="block3motion"} so that the **Energy Panda** sprite faces right when it appears to interact with the **Main Panda** sprite:
+Add a `point in direction`{:class="block3motion"} block so that the **Energy Panda** sprite faces towards the right-hand side when it appears to interact with the **Main Panda** sprite:
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -55,11 +55,11 @@ show
 ```
 --- /task ---
 
-We now want the **Energy Panda** sprite to respond by moving, this time from side to side.
+Now, you want the **Energy Panda** sprite to respond by moving, this time from side to side.
 
 --- task ---
 
-Use the following blocks to do this: `turn right`{:class="block3motion"} `15` degrees, `wait 0.2 seconds`{:class="block3control"}, `turn left`{:class="block3motion"} `15` degrees and `wait 0.2 seconds`{:class="block3control"} and a `repeat`{:class="block3control"} block to repeat this action `18` times.
+Use the following blocks to do this: `turn right`{:class="block3motion"} `15` `degrees`{:class="block3motion"}, `wait`{:class="block3control"} `0.2` `seconds`{:class="block3control"}, `turn left`{:class="block3motion"} `15` `degrees`{:class="block3motion"}, and `wait`{:class="block3control"} `0.2` `seconds`{:class="block3control"} and a `repeat`{:class="block3control"} block to repeat this action `18` times.
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -78,7 +78,7 @@ end
 
 --- /task ---
 
-Get the **Energy Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
+Get the **Energy Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
 
 --- task ---
 
@@ -95,7 +95,7 @@ hide
 
 --- task ---
 
-Now test your program with the new sprite and backdrop.
+Test your program with the new sprite and backdrop.
 
 --- /task ---
 
