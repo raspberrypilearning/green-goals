@@ -125,7 +125,7 @@ hide
 Now add the finishing touches. Get the **Main Panda** sprite to introduce the panda for each Green Goal by announcing each Green Goal's **Backdrop** title. And add some wait time so that the Green Goal pandas can explain their goal.
 
 --- task ---
-Add a `say backdrop name`{:class="block3looks"} and a `wait`{:class="block3control"} block:
+Add a `say backdrop name for 2 seconds`{:class="block3looks"} and change the value to `4`. Also, add a `wait`{:class="block3control"} block:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
