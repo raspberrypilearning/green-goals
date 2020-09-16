@@ -2,7 +2,7 @@
 
 Program the **Water Panda** sprite to respond to the United Nations Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="\_blank"}, with a specific action, sound, and setting.
 
-Code the **Water Panda** sprite to show, explain the 'Life Below Water' goal, and hide, like in the other steps. If you get stuck, you can look at the other steps or click the below for a reminder:
+Program the **Water Panda** sprite to show, explain the 'Life Below Water' goal, and hide, like in the other steps. If you need help, you can look at the other steps or click the button below for a reminder:
 
 --- collapse ---
 
