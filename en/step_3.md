@@ -1,18 +1,18 @@
-## Climate action
+## Climate Action
 
-You will get the **Climate Panda** sprite to explain the United Nations Sustainable Development Goal, [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="\_blank"}, with a specific action, sound, and setting.
+In this step, you will program the **Climate Panda** sprite to explain the United Nations Sustainable Development Goal, [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="\_blank"}, with a specific action, sound, and setting.
 
 --- task ---
 
-Go to the **Code** tab for the **Climate Panda** sprite.
+Click on the **Climate Panda** sprite in the Sprite list and go to the **Code** tab.
 
-You will see some code already provided for you. The code includes music and text explaining the 'Climate Action' goal, as well as a script that gets the **Climate Panda** sprite to `hide`{:class="block3looks"} `when green flag clicked`{:class="block3events"}.
+You will see some code already provided for you. The code includes music and text that explains the 'Climate Action' goal, as well as a script that gets the **Climate Panda** sprite to `hide`{:class="block3looks"} `when green flag clicked`{:class="block3events"}.
 
 ![climate action starter code](images/climateaction-startercode.png)
 
 --- /task ---
 
-Get the **Climate Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite. (You set this up in the previous step.)
+Program the **Climate Panda** sprite to respond to the `broadcast`{:class="block3events"} sent by the **Main Panda** sprite. (You set this up in the previous step.)
 
 --- task ---
 
@@ -43,11 +43,11 @@ show
 
 --- /task ---
 
-In the starter code, you can see a `wait 5 seconds`{:class="block3control"} block. It means that the **Climate Panda** sprite waits for 5 seconds while the **Main Panda** sprite introduces them.
+In the code that was already provided, there is a `wait 5 seconds`{:class="block3control"} block. It means that the **Climate Panda** sprite waits for 5 seconds while the **Main Panda** sprite introduces it.
 
 --- task ---
 
-Get the **Climate Panda** sprite to wait 5 seconds before moving:
+Add a block so that the **Climate Panda** sprite will `wait 5 seconds`{:class="block3control"} before it moves:
 
 ![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
@@ -81,7 +81,7 @@ end
 
 --- /task ---
 
-Get the **Climate Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
+Now, program the **Climate Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
 
 --- task ---
 
