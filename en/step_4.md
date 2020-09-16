@@ -1,6 +1,6 @@
-## Affordable and clean energy
+## Affordable and Clean Energy
 
-Get the **Energy Panda** sprite to respond to the United Nations Sustainable Development Goal, [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="\_blank"}, with a specific action, sound, and setting.
+In this step, you will program the **Energy Panda** sprite to respond to the United Nations Sustainable Development Goal, [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="\_blank"}, with a specific action, sound, and setting.
 
 --- task ---
 
@@ -10,11 +10,11 @@ You will see some code already provided for you. The code includes music and tex
 
 --- /task ---
 
-Get the **Energy Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
+Program the **Energy Panda** sprite to respond to the `broadcast`{:class="block3events"} sent by the **Main Panda** sprite.
 
 --- task ---
 
-Add a `when backdrop switches to Affordable and clean energy`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Energy Panda** sprite on the Stage when it receives the broadcast message:
+Add a `when backdrop switches to Affordable and clean energy`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Energy Panda** sprite on the Stage when the backdrop changes:
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
@@ -39,7 +39,7 @@ show
 
 --- /task ---
 
-As with the previous Green Goals sprites, the **Energy Panda** sprite needs to wait to be introduced by the **Main Panda** sprite.
+Just like the **Climate Panda** sprite, the **Energy Panda** sprite needs to wait to be introduced by the **Main Panda** sprite.
 
 --- task ---
 
@@ -59,13 +59,13 @@ Now, you want the **Energy Panda** sprite to respond by moving, this time from s
 
 --- task ---
 
-Use the following blocks to do this: `turn right`{:class="block3motion"} `15` `degrees`{:class="block3motion"}, `wait`{:class="block3control"} `0.2` `seconds`{:class="block3control"}, `turn left`{:class="block3motion"} `15` `degrees`{:class="block3motion"}, and `wait`{:class="block3control"} `0.2` `seconds`{:class="block3control"} and a `repeat`{:class="block3control"} block to repeat this action `18` times.
+Use the following blocks inside a `repeat`{:class="block3control"} loop: `turn right`{:class="block3motion"}, `wait`{:class="block3control"}, `turn left`{:class="block3motion"}, and `wait`{:class="block3control"}. Set the values in the `turn right`{:class="block3motion"} and `turn left`{:class="block3motion"} blocks to `15` (degrees), and set the values in the `wait`{:class="block3control"} blocks to `0.2` (seconds).
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
 ```blocks3
 when backdrop switches to (Affordable and clean energy v)
-point in direction (90) %
+point in direction (90)
 show
 wait (5) seconds
 + repeat (18)
@@ -78,7 +78,7 @@ end
 
 --- /task ---
 
-Get the **Energy Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
+Program the **Energy Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
 
 --- task ---
 
