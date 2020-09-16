@@ -1,6 +1,6 @@
 ## Walk through the goals
 
-In this step, you will program the **Main Panda** sprite to walk from the left-hand side of the Stage to the right-hand side, changing to the next backdrop when it reaches the right-hand side of the stage. A message is then broadcast to let all the sprites know when the backdrop changes.
+In this step, you will write the program for the **Main Panda** sprite. In this program, the **Main Panda** sprite will walk from the left-hand side of the Stage to the right-hand side, then it will change the backdrop, and broadcast a message to let all the sprites know when the backdrop changes.
 
 --- task ---
 
@@ -14,7 +14,7 @@ The Scratch environment that you will open looks like this:
 
 --- /task ---
 
-In this step, you will program the **Main Panda** sprite to walk through each of the five Green Goal backdrops.
+In this step, you will program the **Main Panda** sprite to walk through five different backdrops.
 
 You will use the `broadcast`{:class="block3events"} blocks, which are messages that are sent by a sprite for some or all other sprites to receive. If you have completed the [Focus on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize){:target="\_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="\_blank"} pathway, you will be familiar with `broadcast`{:class="block3events"} blocks.
 
@@ -44,11 +44,11 @@ Arrange the blocks so that you have two scripts.
 
 --- /task ---
 
-Now you need to get the **Main Panda** sprite to enter from the bottom left-hand corner.
+Now, you need to program the **Main Panda** sprite to enter from the bottom left-hand corner.
 
 --- task ---
 
-From the `Motion`{:class="block3motion"} blocks menu, add a `go to x: y:`{:class="block3motion"} block. Change the coordinates to `x:`{:class="block3motion"} `-168` and `y:`{:class="block3motion"} `-87`:
+From the `Motion`{:class="block3motion"} blocks menu, add a `go to x: y:`{:class="block3motion"} block under the `when I receive next`{:class="block3events"} block. Change the coordinates to `x:`{:class="block3motion"} `-168` and `y:`{:class="block3motion"} `-87`:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -63,7 +63,7 @@ The **Main Panda** sprite needs to show at the beginning and hide at the end.
 
 --- task ---
 
-To do this, go to the `Looks`{:class="block3looks"} blocks menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks. In the next task, you will put some more code between the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
+First, go to the `Looks`{:class="block3looks"} blocks menu and add the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks to your program. In the next task, you will put some more code between the `show`{:class="block3looks"} and `hide`{:class="block3looks"} blocks.
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -75,11 +75,11 @@ go to x: (-168) y: (-87)
 ```
 --- /task ---
 
-Get the **Main Panda** sprite to move across the left to the right-hand side of the Stage until it touches the edge.
+Now, you need to program the **Main Panda** sprite to move from the left-hand side of the Stage to the right-hand side, until it touches the edge.
 
 --- task ---
 
-To do this, add the following blocks: `repeat`{:class="block3control"} loop that repeats `move 10 steps`{:class="block3motion"} until the sprite is `touching edge`{:class="block3sensing"}:
+To do this, add a `repeat until`{:class="block3control"} loop that repeats `move 10 steps`{:class="block3motion"} until the sprite is `touching edge`{:class="block3sensing"}:
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -122,10 +122,10 @@ hide
 
 --- /task ---
 
-Now, add the finishing touches. Get the **Main Panda** sprite to introduce the panda for each Green Goal by announcing each Green Goal's **Backdrop** title. And add some wait time so that the Green Goal pandas can explain their goal.
+Now, add the finishing touches. To introduce the panda for each Green Goal, the **Main Panda** sprite needs to announce each **backdrop** title. You also need to allow some time so that the pandas can explain their Green Goals.
 
 --- task ---
-Add a `say backdrop name for 2 seconds`{:class="block3looks"} block and change the value to `4`. Also, add a `wait`{:class="block3control"} block:
+Add a `say backdrop name for 2 seconds`{:class="block3looks"} block and change the value to `4` (seconds). Also, add a `wait`{:class="block3control"} block and set the value to `12` (seconds):
 
 ![image of the main Panda sprite](images/mainpanda-sprite.png)
 
@@ -171,7 +171,7 @@ next backdrop
 
 --- task ---
 
-Run your program to test it. You should see the backdrops show in turn. After the final backdrop, **Life on Land**, the program goes round to the beginning backdrop, which is **Climate Action**. This is because once the program reaches the final backdrop, the next backdrop command makes it return to the beginning.
+Run your program to test it. You should see the backdrops show in turn. After the final backdrop, **Life on Land**, the program goes back to the first backdrop, which is **Climate action**. This is because once the program reaches the final backdrop, the `next backdrop`{:class="block3looks"} command makes it return to the beginning.
 
 --- /task ---
 
