@@ -1,6 +1,6 @@
 ## Responsible Consumption and Production
 
-This panda is called RRR to stand for 'Reuse, Reduce, Recycle'. Get the **RRR Panda** sprite to respond to the United Nations Sustainable Development Goal, [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"}, with a specific action, sound, and setting.
+This panda is called RRR to stand for 'Reuse, Reduce, Recycle'. In this step, you will program the **RRR Panda** sprite to respond to the United Nations Sustainable Development Goal, [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"}, with a specific action, sound, and setting.
 
 --- task ---
 
@@ -10,11 +10,11 @@ You will see some code already provided for you. The code includes music and tex
 
 --- /task ---
 
-Get the **RRR Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
+Program the **RRR Panda** sprite to respond to the `broadcast`{:class="block3events"} sent by the **Main Panda** sprite.
 
 --- task ---
 
-Add a `when backdrop switches to Responsible consumption and production`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **RRR Panda** sprite on the Stage when it receives the broadcast message:
+Add a `when backdrop switches to Responsible consumption and production`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **RRR Panda** sprite on the Stage when the backdrop changes:
 
 ![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
 
@@ -25,11 +25,11 @@ show
 
 --- /task ---
 
-As with the other Green Goals sprites, the **RRR Panda** sprite needs to wait to be introduced by the **Main Panda** sprite.
+Just like the **Climate Panda** and **Energy Panda** sprites, the **RRR Panda** sprite needs to wait to be introduced by the **Main Panda** sprite.
 
 --- task ---
 
-Add the `wait`{:class="block3events"} block to `5` seconds.
+Add a `wait 5 seconds`{:class="block3events"} block.
 
 ![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
 
@@ -52,7 +52,7 @@ Watch this short video, which shows what to do next, then follow the instruction
 
 --- task ---
 
-Go to the **Code** tab for the **Energy Panda** sprite and find the repeat loop that you used to get the sprite to move. It should look like this:
+Go to the **Code** tab for the **Energy Panda** sprite and find the `repeat`{:class="block3control"} loop that you used to get the sprite to move. It should look like this:
 
 ![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
 
@@ -73,7 +73,7 @@ end
 
 --- task ---
 
-Click on the repeat loop to highlight it. Make sure that only the five blocks that you need are highlighted (not the whole script).
+Click on the `repeat`{:class="block3control"} loop to highlight it. Make sure that only the five blocks that you need are highlighted (not the whole script).
 
 --- /task ---
 
@@ -97,7 +97,7 @@ end
 
 --- /task ---
 
-Get the **RRR Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
+Program the **RRR Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
 
 --- task ---
 
