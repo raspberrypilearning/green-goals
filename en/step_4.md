@@ -59,7 +59,7 @@ Now, you want the **Energy Panda** sprite to respond by moving, this time from s
 
 --- task ---
 
-Use the following blocks inside a `repeat`{:class="block3control"} loop: `turn right`{:class="block3motion"}, `wait`{:class="block3control"}, `turn left`{:class="block3motion"}, and `wait`{:class="block3control"}. Set the values in the `turn right`{:class="block3motion"} and `turn left`{:class="block3motion"} blocks to `15` (degrees), and set the values in the `wait`{:class="block3control"} blocks to `0.2` (seconds).
+Use the following blocks inside a `repeat`{:class="block3control"} loop: `turn right`{:class="block3motion"}, `wait`{:class="block3control"}, `turn left`{:class="block3motion"}, and `wait`{:class="block3control"}. Set the values in the `turn right`{:class="block3motion"} and `turn left`{:class="block3motion"} blocks to `15` (degrees), and set the values in the `wait`{:class="block3control"} blocks to `0.2` (seconds). Set the value in the `repeat`{:class="block3control"} block to `18`.
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
