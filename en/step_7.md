@@ -4,6 +4,20 @@ Get the **Land Panda** sprite to respond to the United Nations' Sustainable Deve
 
 --- task ---
 
+Code the **Land Panda** sprite to show, explain the Life on Land goal, and hide like in the other steps. However, get the **Land Panda** sprite to move however you want it to. Can you get it to jump up and down?
+
+If you get stuck, you can look at the other steps or click the below for a reminder:
+
+--- /task ---
+
+--- collapse ---
+
+---
+title: Click here for a reminder
+---
+
+--- task ---
+
 Go to the **Code** tab for the **Land Panda**.
 
 You will see some code already provided for you. The code includes music and text explaining the Life on Land goal as well as a script that gets the **Land Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
@@ -12,11 +26,7 @@ You will see some code already provided for you. The code includes music and tex
 
 Get the **Land Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
 
---- collapse ---
-
----
-title: Click here for a reminder
----
+--- task ---
 
 Add a  `when backdrop switches to Life on Land`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Land Panda** sprite on the stage:
 
@@ -26,8 +36,7 @@ Add a  `when backdrop switches to Life on Land`{:class="block3events"} block and
 when backdrop switches to [Life on Land v]
 show
 ```
-
---- /collapse ---
+--- /task ---
 
 Change the size of the **Land Panda** sprite so it fits into the scene.
 
@@ -42,16 +51,11 @@ when backdrop switches to (Life on Land v)
 + set size to (50) %
 show
 ```
-
 --- /task ---
 
 As with the previous Green Goals sprites, before **Land Panda** sprite moves, get it to wait to be introduced by the **Main Panda**.
 
---- collapse ---
-
----
-title: Click here for a reminder
----
+--- task ---
 
 Add a `wait`{:class="block3looks"} block and change its value to `5` seconds:
 
@@ -63,13 +67,12 @@ set size to (50)%
 show
 + wait (5) seconds
 ```
---- /collapse ---
 
-Now the **Land Panda** sprite needs to jump up and down.
+--- /task ---
+
+Now we can get the **Land Panda** sprite to jump up and down.
 
 --- task ---
-
-![image of the Land Panda sprite](images/landpanda-sprite.png)
 
 Add in a `repeat`{:class="block3control"} block and within it the following:
 
@@ -77,6 +80,8 @@ Add in a `repeat`{:class="block3control"} block and within it the following:
 `wait`{:class="block3control"} block (slow down action)
 `change y by`{:class="block3motion"} block with a value of `-10` (sprite goes down)
 `wait`{:class="block3control"} block (slow down action)
+
+![image of the Land Panda sprite](images/landpanda-sprite.png)
 
 ```blocks3
 when backdrop switches to (Life on Land v)
@@ -95,11 +100,7 @@ end
 
 As in previous steps, get the **Land Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
 
---- collapse ---
-
----
-title: Click here for a reminder
----
+--- task ---
 
 Start a new script with the `when I receive next`{:class="block3events"} and `hide`{:class="block3looks"} blocks:
 
@@ -109,6 +110,8 @@ Start a new script with the `when I receive next`{:class="block3events"} and `hi
 when I receive [next v]
 hide
 ```
+
+--- /task ---
 
 --- /collapse ---
 
