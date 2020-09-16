@@ -1,12 +1,12 @@
 ## Life Below Water
 
-Get the **Water Panda** sprite to respond to the United Nations' Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="\_blank"}, with a specfic action, sound and setting.
+Get the **Water Panda** sprite to respond to the United Nations Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="\_blank"}, with a specific action, sound, and setting.
 
 --- task ---
 
 Go to the **Code** tab for the **Water Panda**.
 
-You will see the code already provided for you, like in the previous steps.
+You will see some code already provided for you, like in the previous steps.
 
 --- /task ---
 
@@ -18,7 +18,7 @@ Get the **Water Panda** sprite to respond to the `broadcast`{:class="block3event
 title: Click here for a reminder
 ---
 
-Add a  `when backdrop switches to Life Below Water`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Water Panda** sprite on the stage:
+Add a  `when backdrop switches to Life Below Water`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Water Panda** sprite on the Stage:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
@@ -29,11 +29,11 @@ show
 
 --- /collapse ---
 
-Get the **Water Panda** sprite to point straight up so it only moves up and down the stage, and only rotates left and right.
+Get the **Water Panda** sprite to point straight up so it only moves up and down the Stage, and only rotates left and right.
 
 --- task ---
 
-Add a `point in direction 90`{:class="block3motion"} block and change the `90` to `0` so that it can move up and down instead of right and left. Add a `set rotation style left-right`{:class="block3motion"} block so that the sprite rotates left and right instead of flipping upside down:
+Add a `point in direction`{:class="block3motion"} block and change the `90` to `0` so that the sprite can move up and down instead of right and left. Add a `set rotation style left-right`{:class="block3motion"} block so that the sprite rotates left and right instead of flipping upside down:
 
 ![image of the Water Panda sprite](images/waterpanda-sprite.png)
 
@@ -87,7 +87,7 @@ end
 ```
 --- /task ---
 
-You now need to make the  **Water Panda** sprite swim up to the top of the stage and back down again.
+You now need to make the  **Water Panda** sprite swim up to the top of the Stage and back down again.
 
 --- task ---
 To do this add two `Motion`{:class="block3motion"} blocks: `move 2 steps`{:class="block3motion"} and `if on edge, bounce`{:class="block3motion"}:
@@ -106,7 +106,7 @@ end
 
 --- /task ---
 
-As in previous steps, get the **Water Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it is finished explaining its goal.
+As in previous steps, get the **Water Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
 
 --- collapse ---
 
@@ -127,7 +127,7 @@ hide
 
 --- task ---
 
-Now test your program with the new sprite and backdrop.
+Test your program with the new sprite and backdrop.
 
 --- /task ---
 
