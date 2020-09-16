@@ -1,6 +1,6 @@
 ## Introduction
 
-The United Nations is a group of countries that work together to make the world a better place. In this project, you will code the United Nations’ pandas to learn about the United Nations Sustainable Development Goals that focus on the environment. The five environment-focused goals are:
+The United Nations is an organisation in which countries work together to make the world a better place. In this project, you will create an animation about the United Nations Sustainable Development Goals that focus on the environment. The five environment-focused goals are:
 + [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
 + [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="_blank"}
 + [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}
@@ -12,9 +12,9 @@ We've named these goals 'Green Goals'.
 ### What you will make
 
 --- no-print ---
-Click on the green flag to start the animation and watch **Main Panda** interact with the five Green Goal pandas: **Climate**, **Energy**, **RRR**, **Water**, and **Land**.
+Click on the green flag to start the animation and watch **Main Panda** interact with the five pandas that represent the ‘Green Goals’: **Climate**, **Energy**, **RRR**, **Water**, and **Land**.
 
-The **Main Panda** sprite walks through a different backdrop for each goal. For each backdrop, a different Green Goal panda sprite explains their goal with actions, sounds, and words.
+The **Main Panda** sprite walks through five different scenes. In each scene, a different panda sprite explains their goal with actions, sounds, and words.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/423884556/?autostart=false" frameborder="0"></iframe>
@@ -48,9 +48,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Use `broadcast`{:class="block3events"} blocks to control an animation sequence
-+ Use `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Operators`{:class="block3operators"} blocks to create sprite action with accompanying `Sound`{:class="block3sound"}
-+ Learn about the United Nations Sustainable Development Goals by creating an animation about them
++ How to use `broadcast`{:class="block3events"} blocks to control an animation sequence
++ How to use `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Operators`{:class="block3operators"} blocks to create sprite action with accompanying `Sound`{:class="block3sound"}
++ How to describe the United Nations Sustainable Development Goals that focus on the environment
 
 --- /collapse ---
 
