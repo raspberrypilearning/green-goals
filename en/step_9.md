@@ -4,8 +4,8 @@ You can share your completed Scratch project with your friends and family. To do
 
 [[[share-scratch]]]
 
-+ If you are in a club, why not demonstrate your project to friends and peers
++ If you are in a club, why not demonstrate your project to friends and peers?
 
-+ Ask for their feedback
++ Ask for their feedback.
 
-+ Tell everyone about the United Nations’ Sustainable Development Goals so we can all help to protect our planet
++ Tell everyone about the United Nations Sustainable Development Goals so we can all help to protect our planet!
