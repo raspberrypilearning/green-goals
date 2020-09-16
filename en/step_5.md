@@ -1,4 +1,4 @@
-## Responsible Consumption and Development
+## Responsible Consumption and Production
 
 This panda is called RRR to stand for 'Reuse, Reduce, Recycle'. Get the **RRR Panda** sprite to respond to the United Nations Sustainable Development Goal, [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"}, with a specific action, sound, and setting.
 
