@@ -1,10 +1,10 @@
 ## Life on Land
 
-Get the **Land Panda** sprite to respond to the United Nations Sustainable Development Goal, [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html){:target="\_blank"}, with a specific action, sound, and setting.
+Program the **Land Panda** sprite to respond to the United Nations Sustainable Development Goal, [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html){:target="\_blank"}, with a specific action, sound, and setting.
 
 --- task ---
 
-Code the **Land Panda** sprite to show, explain the 'Life on Land' goal, and hide like in the other steps. However, get the **Land Panda** sprite to move however you want it to. Can you get it to jump up and down?
+Program the **Land Panda** sprite to show, explain the 'Life on Land' goal, and hide, like in the other steps. However, program the **Land Panda** sprite to move however you want it to. Can you get it to jump up and down?
 
 If you get stuck, you can look at the other steps or click the below for a reminder:
 
@@ -20,11 +20,11 @@ title: Click here for a reminder
 
 Go to the **Code** tab for the **Land Panda**.
 
-You will see some code already provided for you. The code includes music and text explaining the 'Life on Land' goal as well as a script that gets the **Land Panda** sprite to `hide`{:class="block3looks"} `when green flag clicked`{:class="block3events"}.
+You will see some code already provided for you. The code includes music and text that explains the 'Life on Land' goal, as well as a script that gets the **Land Panda** sprite to `hide`{:class="block3looks"} `when green flag clicked`{:class="block3events"}.
 
 --- /task ---
 
-Get the **Land Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
+Program the **Land Panda** sprite to respond to the `broadcast`{:class="block3events"} sent by the **Main Panda** sprite.
 
 --- task ---
 
@@ -53,11 +53,11 @@ show
 ```
 --- /task ---
 
-As with the previous Green Goals sprites, before **Land Panda** sprite moves, it needs to wait to be introduced by the **Main Panda** sprite.
+Just like the other Green Goals panda sprites, the **Land Panda** sprite needs to wait to be introduced by the **Main Panda** sprite before it moves.
 
 --- task ---
 
-Add a `wait`{:class="block3looks"} block and change its value to `5` seconds:
+Add a `wait`{:class="block3events"} block and set its value to `5` (seconds):
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
@@ -70,16 +70,17 @@ show
 
 --- /task ---
 
-Now we can get the **Land Panda** sprite to jump up and down.
+Now, program the **Land Panda** sprite to jump up and down.
 
 --- task ---
 
 Add a `repeat`{:class="block3control"} block, and within it, add the following blocks:
 
-`change y by`{:class="block3motion"} block with a value of `10` (sprite goes up)
-`wait`{:class="block3control"} block (slow down action)
-`change y by`{:class="block3motion"} block with a value of `-10` (sprite goes down)
-`wait`{:class="block3control"} block (slow down action)
++ `change y by`{:class="block3motion"} block with a value of `10` (the sprite will go up)
++ `wait`{:class="block3control"} block (this will slow down the action)
++ `change y by`{:class="block3motion"} block with a value of `-10` (the sprite will go down)
++ `wait`{:class="block3control"} block (this will slow down the action)
+
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
@@ -98,7 +99,7 @@ end
 
 --- /task ---
 
-As in previous steps, get the **Land Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
+As in previous steps, program the **Land Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
 
 --- task ---
 
