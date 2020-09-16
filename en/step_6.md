@@ -2,6 +2,14 @@
 
 Get the **Water Panda** sprite to respond to the United Nations Sustainable Development Goal, [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="\_blank"}, with a specific action, sound, and setting.
 
+Code the **Water Panda** sprite to show, explain the 'Life Below Water' goal, and hide like in the other steps. If you get stuck, you can look at the other steps or click the below for a reminder:
+
+--- collapse ---
+
+---
+title: Click here for a reminder
+---
+
 --- task ---
 
 Go to the **Code** tab for the **Water Panda**.
@@ -12,11 +20,7 @@ You will see some code already provided for you, like in the previous steps.
 
 Get the **Water Panda** sprite to respond to the `broadcast`{:class="block3events"} in the **Main Panda** sprite.
 
---- collapse ---
-
----
-title: Click here for a reminder
----
+--- task ---
 
 Add a  `when backdrop switches to Life Below Water`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Water Panda** sprite on the Stage:
 
@@ -27,7 +31,7 @@ when backdrop switches to [Life Below Water v]
 show
 ```
 
---- /collapse ---
+--- /task ---
 
 Get the **Water Panda** sprite to point straight up so it only moves up and down the Stage, and only rotates left and right.
 
@@ -48,11 +52,7 @@ show
 
 As with the previous Green Goals sprites, **Water Panda** sprite needs to wait to be introduced by the **Main Panda** sprite.
 
---- collapse ---
-
----
-title: Click here for a reminder
----
+--- task ---
 
 Add a `wait`{:class="block3control"} block for `5` seconds:
 
@@ -65,6 +65,8 @@ set rotation style [left-right v]
 show
 + wait (5) seconds
 ```
+
+--- /task ---
 
 --- /collapse ---
 

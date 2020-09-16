@@ -4,7 +4,7 @@ Get the **Land Panda** sprite to respond to the United Nations Sustainable Devel
 
 --- task ---
 
-Code the **Land Panda** sprite to show, explain the Life on Land goal, and hide like in the other steps. However, get the **Land Panda** sprite to move however you want it to. Can you get it to jump up and down?
+Code the **Land Panda** sprite to show, explain the 'Life on Land' goal, and hide like in the other steps. However, get the **Land Panda** sprite to move however you want it to. Can you get it to jump up and down?
 
 If you get stuck, you can look at the other steps or click the below for a reminder:
 
