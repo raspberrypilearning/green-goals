@@ -4,9 +4,9 @@ Program the **Land Panda** sprite to respond to the United Nations Sustainable D
 
 --- task ---
 
-Program the **Land Panda** sprite to show, explain the 'Life on Land' goal, and hide, like in the other steps. However, program the **Land Panda** sprite to move however you want it to. Can you get it to jump up and down?
+Program the **Land Panda** sprite to show, explain the 'Life on Land' goal, and hide, like in the other steps. However, program the **Land Panda** sprite to move in a different way to the other sprites. For example, can you get it to jump up and down?
 
-If you get stuck, you can look at the other steps or click the below for a reminder:
+If you need help, you can look at the other steps or click the button below for a reminder:
 
 --- /task ---
 
