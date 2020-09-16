@@ -6,11 +6,7 @@ Get the **Land Panda** sprite to respond to the United Nations Sustainable Devel
 
 Code the **Land Panda** sprite to show, explain the Life on Land goal, and hide like in the other steps. However, get the **Land Panda** sprite to move however you want it to. Can you get it to jump up and down?
 
-<<<<<<< HEAD
 If you get stuck, you can look at the other steps or click the below for a reminder:
-=======
-You will see some code already provided for you. The code includes music and text that explains the 'Life on Land' goal, as well as a script that gets the **Land Panda** sprite to `hide`{:class="block3looks"} `when green flag clicked`{:class="block3events"}.
->>>>>>> fcc2d90be50854da0fc3d20080bfdfd23d03bbcc
 
 --- /task ---
 
@@ -20,12 +16,11 @@ You will see some code already provided for you. The code includes music and tex
 title: Click here for a reminder
 ---
 
-<<<<<<< HEAD
 --- task ---
 
 Go to the **Code** tab for the **Land Panda**.
 
-You will see some code already provided for you. The code includes music and text explaining the Life on Land goal as well as a script that gets the **Land Panda** sprite to `hide`{:class="block3looks"} `when flag clicked`{:class="block3events"}.
+You will see some code already provided for you. The code includes music and text explaining the 'Life on Land' goal as well as a script that gets the **Land Panda** sprite to `hide`{:class="block3looks"} `when green flag clicked`{:class="block3events"}.
 
 --- /task ---
 
@@ -33,10 +28,7 @@ Get the **Land Panda** sprite to respond to the `broadcast`{:class="block3events
 
 --- task ---
 
-Add a  `when backdrop switches to Life on Land`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Land Panda** sprite on the stage:
-=======
 Add a `when backdrop switches to Life on Land`{:class="block3events"} block and use a `show`{:class="block3looks"} block to show the **Land Panda** sprite on the Stage:
->>>>>>> fcc2d90be50854da0fc3d20080bfdfd23d03bbcc
 
 ![image of the Land Panda sprite](images/landpanda-sprite.png)
 
