@@ -29,7 +29,7 @@ Just like the **Climate Panda** and **Energy Panda** sprites, the **RRR Panda** 
 
 --- task ---
 
-Add a `wait 5 seconds`{:class="block3events"} block.
+Add a `wait 5 seconds`{:class="block3events"} block:
 
 ![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
 
@@ -79,7 +79,7 @@ Click on the `repeat`{:class="block3control"} loop to highlight it. Make sure th
 
 --- task ---
 
-Drag these blocks into the image of the **RRR Panda** sprite and put them in the script that you started earlier in this step:
+Drag these blocks into the image of the **RRR Panda** sprite in the Sprite list and put them in the script that you started earlier in this step:
 
 ![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
 
