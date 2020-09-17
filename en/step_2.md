@@ -55,7 +55,7 @@ when I receive [next v]
 
 --- task ---
 
-Arrange the blocks so that you have two scripts.
+Arrange the blocks so that you have the two scripts side by side.
 
 ![screenshot of the two scripts side by side](images/broadcast-scripts.png)
 
