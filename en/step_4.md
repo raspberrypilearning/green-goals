@@ -78,7 +78,7 @@ end
 
 --- /task ---
 
-Program the **Energy Panda** sprite to respond to the next `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
+Program the **Energy Panda** sprite to respond to the `broadcast next`{:class="block3events"} command from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
 
 --- task ---
 
