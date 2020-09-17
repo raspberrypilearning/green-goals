@@ -33,7 +33,7 @@ broadcast [next v]
 
 --- task ---
 
-Go to the `Looks`{:class="block3looks"} blocks menu and select the `switch backdrop to`{:class="block3looks"}. Click on the drop-down menu in the `switch backdrop to`{:class="block3looks"} block and select **Climate action**:
+Go to the `Looks`{:class="block3looks"} blocks menu and select the `switch backdrop to`{:class="block3looks"} block. Click on the drop-down menu in the `switch backdrop to`{:class="block3looks"} block and select `Climate action`{:class="block3looks"}:
 
 ```blocks3
 when green flag clicked
@@ -104,7 +104,7 @@ To do this, add a `repeat until`{:class="block3control"} loop that repeats `move
 when I receive [next v]
 go to x: (-168) y: (-87)
 show
-+ repeat until <touching[edge v]>
++ repeat until <touching[edge v]?>
   move (10) steps
 end
 hide
@@ -129,7 +129,7 @@ Add the following two blocks to the end of the script: `broadcast next`{:class="
 when I receive [next v]
 go to x: (-168) y: (-87)
 show
-repeat until <touching[edge v]>
+repeat until <touching[edge v]?>
   move (10) steps
 end
 hide
@@ -152,7 +152,7 @@ go to x: (-168) y: (-87)
 show
 + say (backdrop [name v]) for (4) seconds
 + wait (12) seconds
-repeat until <touching[edge v]>
+repeat until <touching[edge v]?>
   move (10) steps
 end
 hide
@@ -176,7 +176,7 @@ go to x: (-168) y: (-87)
 show
 say (backdrop [name v]) for (4) seconds
 wait (12) seconds
-repeat until <touching[edge v]>
+repeat until <touching[edge v]?>
   move (10) steps
 end
 hide
