@@ -33,11 +33,28 @@ broadcast [next v]
 
 --- task ---
 
+Go to the `Looks`{:class="block3looks"} blocks menu and select the `switch backdrop to1`{:class="block3looks"}. Click on the drop-down menu in the `switch backdrop to1`{:class="block3looks"} block and select **Climate action**:
+
+```blocks3
+when green flag clicked
+broadcast [next v]
+switch backdrop to [Climate action v]
+```
+
+--- /task ---
+
+--- task ---
+
 The second script will control the movement of the **Main Panda** sprite across the five different backdrops. To create the second script, go to the `Events`{:class="block3events"} blocks menu and select the `when I receive next`{:class="block3events"} block:
 
 ```blocks3
 when I receive [next v]
 ```
+
+--- /task ---
+
+--- task ---
+
 Arrange the blocks so that you have two scripts.
 
 ![screenshot of the two scripts side by side](images/broadcast-scripts.png)
