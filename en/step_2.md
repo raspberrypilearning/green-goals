@@ -33,7 +33,7 @@ broadcast [next v]
 
 --- task ---
 
-Go to the `Looks`{:class="block3looks"} blocks menu and select the `switch backdrop to1`{:class="block3looks"}. Click on the drop-down menu in the `switch backdrop to1`{:class="block3looks"} block and select **Climate action**:
+Go to the `Looks`{:class="block3looks"} blocks menu and select the `switch backdrop to`{:class="block3looks"}. Click on the drop-down menu in the `switch backdrop to`{:class="block3looks"} block and select **Climate action**:
 
 ```blocks3
 when green flag clicked
