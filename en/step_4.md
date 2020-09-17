@@ -27,7 +27,7 @@ show
 
 --- task ---
 
-Add a `point in direction`{:class="block3motion"} block so that the **Energy Panda** sprite faces towards the right-hand side when it appears to interact with the **Main Panda** sprite:
+Add a `point in direction`{:class="block3motion"} block and set the value to `90` so that the **Energy Panda** sprite faces towards the right-hand side while it appears to interact with the **Main Panda** sprite:
 
 ![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
