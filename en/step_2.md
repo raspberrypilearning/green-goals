@@ -16,7 +16,7 @@ The Scratch environment that you will open looks like this:
 
 In this step, you will program the **Main Panda** sprite to walk through five different backdrops.
 
-You will use the `broadcast`{:class="block3events"} blocks, which are messages that are sent by a sprite for some or all other sprites to receive. If you have completed the [Focus on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize){:target="\_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="\_blank"} pathway, you will be familiar with `broadcast`{:class="block3events"} blocks.
+You will use `broadcast`{:class="block3events"} blocks, which are messages that are sent by a sprite for some or all other sprites to receive. If you have completed the [Focus on the prize](https://learning-admin.raspberrypi.org/en/projects/focus-on-the-prize){:target="\_blank"} project in the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself){:target="\_blank"} pathway, you will be familiar with `broadcast`{:class="block3events"} blocks.
 
 A group of blocks joined together is called a 'script'. The **Main Panda** sprite will have two scripts.
 
