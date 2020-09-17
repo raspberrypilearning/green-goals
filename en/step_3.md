@@ -81,7 +81,7 @@ end
 
 --- /task ---
 
-Now, program the **Climate Panda** sprite to respond to the `next`{:class="block3events"} `broadcast`{:class="block3events"} from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
+Now, program the **Climate Panda** sprite to respond to the `broadcast next`{:class="block3events"} command from the **Main Panda** sprite and `hide`{:class="block3looks"} when it has finished explaining its goal.
 
 --- task ---
 
