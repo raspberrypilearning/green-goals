@@ -54,7 +54,7 @@ Watch this short video, which shows what to do next, then follow the instruction
 
 Go to the **Code** tab for the **Energy Panda** sprite and find the `repeat`{:class="block3control"} loop that you used to get the sprite to move. It should look like this:
 
-![image of the RRR Panda sprite](images/RRRpanda-sprite.png)
+![image of the Energy Panda sprite](images/energypanda-sprite.png)
 
 ```blocks3
 when backdrop switches to (Affordable and clean energy v)

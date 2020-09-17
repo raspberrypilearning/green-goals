@@ -1,7 +1,10 @@
-## Share your project
+## What next?
 
-You can share your completed Scratch project with your friends and family. To do this, follow the instructions below:
+In this project, you have:
++ Used `broadcast`{:class="block3events"} blocks to control an animation sequence
++ Used a combination of `Motion`{:class="block3motion"}, `Looks`{:class="block3looks"}, and `Operators`{:class="block3operators"} blocks to create sprite action with accompanying `Sound`{:class="block3sound"}
++ Learned about the United Nations Sustainable Development Goals by creating an animation about them
 
-[[[share-scratch]]]
+If you have been following the [Protect our planet](https://projects.raspberrypi.org/en/pathways/environment) projects, then try out the project [Plant trees](https://projects.raspberrypi.org/en/projects/plant-trees).
 
-If you are in a club, why not demonstrate your project to friends and peers? Ask for their feedback, and tell everyone about the United Nations Sustainable Development Goals so we can all help to protect our planet!
+Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!

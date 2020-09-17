@@ -1,15 +1,7 @@
-## Challenge: get creative!
+## Share your project
 
-How would you explain the Green Goals using animation and music? Can you add different ways of moving the panda sprites? Or different ways of interacting with the **Main Panda** sprite? How about adding costumes, editing with the Paint tool, or changing the backdrop or music?
+You can share your completed Scratch project with your friends and family. To do this, follow the instructions below:
 
-Think about some of the things that you have learned in other Scratch projects that involve movement, costumes, sound, or graphic effects, such as in Stress ball, Butterfly garden, Focus on the prize, and Same but different.
+[[[share-scratch]]]
 
---- no-print ---
-
-ADD EXAMPLE HERE - THE BELOW IS AN EXAMPLE FOR FOCUS ON THE PRIZE
-
-<div class="scratch-preview">
-<iframe src="https://scratch.mit.edu/projects/405012286/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
-
---- /no-print ---
+If you are in a club, why not demonstrate your project to friends and peers? Ask for their feedback, and tell everyone about the United Nations Sustainable Development Goals so we can all help to protect our planet!
