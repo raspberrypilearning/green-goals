@@ -162,7 +162,7 @@ next backdrop
 
 --- /task ---
 
-Finally, you need to stop the music playing when the **Main Panda** goes to the next backdrop.
+Finally, you need to stop the music playing when the **Main Panda** sprite goes to the next backdrop.
 
 --- task ---
 
