@@ -64,7 +64,7 @@ show
 
 Add blocks so that after it `waits 5 seconds`{:class="block3control"}, the **Climate Panda** sprite gets bigger and smaller repeatedly:
 
-![image of the Climate Panda sprite](images/climatenpanda-sprite.png)
+![image of the Climate Panda sprite](images/climatepanda-sprite.png)
 
 ```blocks3
 when backdrop switches to (Climate action v)
