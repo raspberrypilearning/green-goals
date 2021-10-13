@@ -1,11 +1,11 @@
 ## Introduction
 
 The United Nations is an organisation in which countries work together to make the world a better place. In this project, you will create an animation about the United Nations Sustainable Development Goals that focus on the environment. The five environment-focused goals are:
-+ [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
-+ [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="_blank"}
-+ [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}
-+ [Life Below Water](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-14-life-below-water.html){:target="_blank"}
-+ [Life on Land](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-15-life-on-land.html){:target="_blank"}
++ [Affordable and Clean Energy](https://www.undp.org/sustainable-development-goals#affordable-and-clean-energy){:target="_blank"}
++ [Responsible Consumption and Production](https://www.undp.org/sustainable-development-goals#responsible-consumption-and-production){:target="_blank"}
++ [Climate Action](https://www.undp.org/sustainable-development-goals#climate-action){:target="_blank"}
++ [Life Below Water](https://www.undp.org/sustainable-development-goals#below-water){:target="_blank"}
++ [Life on Land](https://www.undp.org/sustainable-development-goals#life-on-land){:target="_blank"}
 
 We've named these goals 'Green Goals'.
 
