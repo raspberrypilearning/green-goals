@@ -1,3 +1,4 @@
+---
 title: Green goals
 hero_image: images/banner.png
 description: Program an animation and learn about the United Nations' five environment-focused Sustainable Development Goals
@@ -6,12 +7,14 @@ listed: true
 copyedit: true
 last_tested: "2020-08-19"
 steps:
-  - title: Introduction
-  - title: Walk through the goals
-  - title: Climate Action
-  - title: Affordable and Clean Energy
-  - title: Responsible Consumption and Production
-  - title: Life Below Water
-  - title: Life on Land
-  - title: Share your project
-  - title: What next?
+- title: Introduction
+  completion: engaged
+- title: Walk through the goals
+- title: Climate Action
+- title: Affordable and Clean Energy
+- title: Responsible Consumption and Production
+- title: Life Below Water
+- title: Life on Land
+  completion: internal
+- title: Share your project
+- title: What next?
