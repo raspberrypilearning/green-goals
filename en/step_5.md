@@ -46,7 +46,7 @@ To get the **RRR Panda** sprite to move, duplicate the code that you created in 
 
 Watch this short video, which shows what to do next, then follow the instructions below.
 
-![dragging code gif](images/draggingcode.gif)
+![The "repeat 15 times" block and all the blocks inside of it are dragged to the RRR Panda sprite and then attached below the "wait 5 seconds" block in the RRR Panda code.](images/draggingcode.gif)
 
 --- /no-print ---
 
