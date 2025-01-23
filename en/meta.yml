@@ -1,7 +1,7 @@
 ---
 title: Green goals
 hero_image: images/banner.png
-description: Program an animation and learn about the United Nations' five environment-focused
+description: Program an animation and learn about the United Nations five environment-focused
   Sustainable Development Goals
 version: 4
 listed: true
@@ -21,3 +21,5 @@ steps:
   - internal
 - title: Share your project
 - title: What next?
+  completion:
+  - external
